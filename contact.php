@@ -23,10 +23,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // 3. Send to Google Sheets (Highly Recommended for Vercel)
     // To use this, deploy your script from google-apps-script.js and paste the URL below
-    $googleSheetUrl = "YOUR_GOOGLE_SCRIPT_WEB_APP_URL_HERE"; 
+    $googleSheetUrl = "https://script.google.com/macros/s/AKfycbybpYmnerQ-BmqdWC0LUF40P09eGxaCgGADhPIM-FquIO4GTR0-oS42DCV6JP5ll_Gz/exec"; 
     if ($googleSheetUrl !== "YOUR_GOOGLE_SCRIPT_WEB_APP_URL_HERE") {
         $queryData = http_build_query([
-            'project_name' => 'Arihant City',
+            'project_name' => 'Arihant City Kalyan',
             'name' => $name,
             'phone' => $phone,
             'email' => $email,
