@@ -12,28 +12,100 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thank You | Arihant City Kalyan Bhiwandi | Arihant Group</title>
+    <title>Thank You | Arihant City Kalyan Bhiwandi | Submission Successful</title>
     
     <style>
         :root { --primary: #500115; --accent: #a88c39; --light: #fdf2f4; }
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background: #f9f9f9; overflow-x: hidden; }
-        header { background: var(--primary); color: #fff; padding: 20px; text-align: center; border-bottom: 4px solid var(--accent); }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background: #f9f9f9; overflow-x: hidden; display: flex; flex-direction: column; min-height: 100vh; }
+        
+        .top-disclaimer-bar {
+            background-color: #ffd700;
+            color: #222;
+            text-align: center;
+            padding: 8px 15px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            line-height: 1.4;
+            border-bottom: 2px solid var(--accent);
+            position: relative;
+            z-index: 1001;
+            width: 100%;
+        }
+        .top-disclaimer-bar a {
+            color: var(--primary);
+            text-decoration: underline;
+        }
+
+        header { background: var(--primary); color: #fff; padding: 20px; text-align: center; border-bottom: 4px solid var(--accent); width: 100%; }
         header a { color: #fff; text-decoration: none; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; }
-        .container { max-width: 850px; width: 90%; margin: 30px auto; padding: 30px; background: #fff; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
-        h1 { color: var(--primary); margin-bottom: 20px; border-bottom: 2px solid var(--light); padding-bottom: 10px; font-size: 2rem; }
-        h2 { color: var(--primary); margin-top: 25px; margin-bottom: 15px; font-size: 1.4rem; }
-        p { margin-bottom: 15px; text-align: justify; }
-        ul { margin-bottom: 20px; padding-left: 20px; }
-        li { margin-bottom: 8px; }
-        .cta-box { background: var(--light); padding: 25px; border-radius: 8px; text-align: center; margin: 30px 0; border: 1px dashed var(--primary); }
-        .btn, .cta-btn { display: inline-block; background: var(--primary); color: #fff; padding: 12px 25px; text-decoration: none; border-radius: 4px; font-weight: bold; margin-top: 10px; }
-        .back-link { display: inline-block; margin-top: 20px; color: var(--primary); font-weight: bold; text-decoration: none; }
+        
+        .main-content {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px 0;
+        }
+
+        .thank-you-card {
+            max-width: 600px;
+            width: 90%;
+            margin: 40px auto;
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            border-top: 5px solid var(--primary);
+        }
+        .thank-you-card .logo {
+            max-height: 50px;
+            margin-bottom: 20px;
+            object-fit: contain;
+        }
+        .thank-you-card .icon {
+            display: inline-block;
+            background: #27ae60;
+            color: #fff;
+            width: 60px;
+            height: 60px;
+            line-height: 60px;
+            border-radius: 50%;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        .thank-you-card h1 {
+            color: var(--primary);
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+        .thank-you-card p {
+            color: #555;
+            font-size: 1.05rem;
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+        .btn { display: inline-block; background: var(--primary); color: #fff; padding: 12px 30px; text-decoration: none; border-radius: 4px; font-weight: bold; margin-top: 10px; transition: background 0.3s; }
+        .btn:hover { background: var(--accent); }
+        
+        footer {
+            background-color: var(--primary);
+            color: #fff;
+            padding: 30px 20px;
+            font-size: 0.85rem;
+            border-top: 4px solid var(--accent);
+            width: 100%;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
         @media (max-width: 768px) {
-            .container { width: 95%; padding: 20px 15px; margin: 15px auto; }
-            h1 { font-size: 1.6rem; }
-            header h2 { font-size: 1.2rem; }
-            .btn, .cta-btn { width: 100%; text-align: center; }
+            .thank-you-card { padding: 30px 20px; }
+            .thank-you-card h1 { font-size: 1.6rem; }
+            .btn { width: 100%; text-align: center; }
         }
     </style>
     <!-- Event snippet for Submit lead form conversion page -->
@@ -46,14 +118,42 @@
     </script>
 </head>
 <body>
-
-    <div class="thank-you-card">
-        <img src="images/site_logo_1776842346.webp" alt="Arihant City Logo" class="logo">
-        <div class="icon">✓</div>
-        <h1>Submission Successful!</h1>
-        <p>We appreciate your interest in <strong>Arihant City Kalyan Bhiwandi</strong>. Your details have been securely recorded.<br> One of our dedicated real estate advisors will contact you very soon to assist you further.</p>
-        <a href="index.html" class="btn">Return to Homepage</a>
+    <div class="top-disclaimer-bar">
+        Disclaimer: This is an Authorized Channel Partner website. It is not the official developer website. MahaRERA Phase-I No: P51700010884. Sales Helpline: <a href="tel:+919860949793">+91 98609 49793</a>
     </div>
 
+    <div class="main-content">
+        <div class="thank-you-card">
+            <img src="images/site_logo_1777043167.webp" alt="Arihant City Logo" class="logo">
+            <div class="icon">✓</div>
+            <h1>Submission Successful!</h1>
+            <p>We appreciate your interest in <strong>Arihant City Kalyan Bhiwandi</strong>. Your details have been securely recorded.<br>One of our dedicated real estate advisors will contact you very soon to assist you further.</p>
+            <a href="index.html" class="btn">Return to Homepage</a>
+        </div>
+    </div>
+
+    <footer>
+        <div style="max-width: 850px; margin: 0 auto; text-align: center; line-height: 1.6;">
+            <div style="margin-bottom: 20px;">
+                <a href="/" style="margin: 0 10px;">Home</a> |
+                <a href="blog/index.html" style="margin: 0 10px;">Blogs</a> |
+                <a href="disclaimer.html" style="margin: 0 10px;">Disclaimer</a> |
+                <a href="privacy-policy.html" style="margin: 0 10px;">Privacy Policy</a> |
+                <a href="terms-and-conditions.html" style="margin: 0 10px;">Terms & Conditions</a>
+            </div>
+            
+            <p style="margin-bottom: 10px;">© 2026 Arihant City Kalyan Bhiwandi. All Rights Reserved.</p>
+            <p style="margin-bottom: 10px; font-size: 0.8rem;">
+                <strong>Office Address:</strong> Kalyan-Bhiwandi Bypass, Bhiwandi, Maharashtra 421302. <br>
+                <strong>Helpline:</strong> <a href="tel:+919860949793" style="text-decoration: underline;">+91 98609 49793</a> | 
+                <strong>Email:</strong> <a href="mailto:javheri80@gmail.com" style="text-decoration: underline;">javheri80@gmail.com</a>
+            </p>
+            
+            <p style="margin-top: 15px; font-size: 0.75rem; opacity: 0.8; line-height: 1.4; text-align: justify;">
+                <strong>Disclaimer & Partner Disclosure:</strong> This website is owned and operated by an Authorized Channel Partner (Marketing Partner) of the developer. It is not the official developer website. The content, including images, graphics, floor plans, pricing, and availability of flats at Arihant City, is provided purely for informational and promotional purposes and is subject to change at the developer's discretion. The official RERA numbers for the project are: 
+                <a href="https://maharerait.mahaonline.gov.in" target="_blank" rel="noopener" style="text-decoration:underline;">MahaRERA Registration No</a>: Phase-I: P51700010884, D3 Tower: P51700022743, Phase-II: P51700028429, P51700028441, P51700044483, P51700010350. Please refer to official developer documents or RERA portal for binding specifications.
+            </p>
+        </div>
+    </footer>
 </body>
 </html>

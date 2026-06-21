@@ -72,7 +72,7 @@ function get_val($key, $fallback = '')
       "logo": "https://www.arihantcity.site/images/site_logo_1776905712.webp",
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+91-8000000000",
+        "telephone": "+91-9860949793",
         "contactType": "sales"
       }
     }
@@ -119,7 +119,7 @@ function get_val($key, $fallback = '')
         "postalCode": "421302",
         "addressCountry": "IN"
       },
-      "telephone": "+91-8000000000",
+      "telephone": "+91-9860949793",
       "openingHours": "Mo-Su 09:00-19:00"
     }
     </script>
@@ -241,6 +241,24 @@ function get_val($key, $fallback = '')
             background-color: var(--accent-gold);
             transform: translateY(-2px);
             box-shadow: 0 4px 15px rgba(80, 1, 21, 0.3);
+        }
+
+        .top-disclaimer-bar {
+            background-color: #ffd700;
+            color: #222;
+            text-align: center;
+            padding: 8px 15px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            line-height: 1.4;
+            border-bottom: 2px solid var(--accent-gold);
+            position: relative;
+            z-index: 1001;
+        }
+
+        .top-disclaimer-bar a {
+            color: var(--primary-maroon);
+            text-decoration: underline;
         }
 
         header {
@@ -725,6 +743,9 @@ function get_val($key, $fallback = '')
 
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
+    <div class="top-disclaimer-bar">
+        Disclaimer: This is an Authorized Channel Partner website. It is not the official developer website. MahaRERA Phase-I No: P51700010884. Sales Helpline: <a href="tel:+919860949793">+91 98609 49793</a>
+    </div>
     <header>
         <div class="nav-container container">
             <a href="index.php" aria-label="Arihant City Home"><img id="logo"
@@ -1087,22 +1108,25 @@ function get_val($key, $fallback = '')
     </main>
 
     <footer>
-        <div class="container">
+        <div class="container" style="text-align: center; color: #fff; line-height: 1.6;">
             <div style="margin-bottom: 20px;">
                 <a href="/" style="color: #fff; text-decoration: none; margin: 0 10px;">Home</a> |
                 <a href="blog/index.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Blogs</a> |
                 <a href="disclaimer.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Disclaimer</a> |
-                <a href="privacy-policy.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Privacy
-                    Policy</a> |
-                <a href="terms-and-conditions.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Terms &
-                    Conditions</a>
+                <a href="privacy-policy.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Privacy Policy</a> |
+                <a href="terms-and-conditions.html" style="color: #fff; text-decoration: none; margin: 0 10px;">Terms & Conditions</a>
             </div>
-            <p>© 2026 Arihant City Kalyan Bhiwandi. All Rights Reserved.</p>
-            <p style="margin-top: 10px; font-size: 0.75rem; opacity: 0.8;">
-                <a href="https://maharerait.mahaonline.gov.in" target="_blank" rel="noopener"
-                    style="color:#fff; text-decoration:underline;">MahaRERA Registration No</a>: Phase-I: P51700010884,
-                D3 Tower: P51700022743, Phase-II: P51700028429, P51700028441, P51700044483, P51700010350. <br>
-                Disclaimer: All images and plans are artist's impressions. Please refer to RERA for accurate details.
+            
+            <p style="margin-bottom: 10px;">© 2026 Arihant City Kalyan Bhiwandi. All Rights Reserved.</p>
+            <p style="margin-bottom: 10px; font-size: 0.8rem;">
+                <strong>Office Address:</strong> Kalyan-Bhiwandi Bypass, Bhiwandi, Maharashtra 421302. <br>
+                <strong>Helpline:</strong> <a href="tel:+919860949793" style="color: #fff; text-decoration: underline;">+91 98609 49793</a> | 
+                <strong>Email:</strong> <a href="mailto:javheri80@gmail.com" style="color: #fff; text-decoration: underline;">javheri80@gmail.com</a>
+            </p>
+            
+            <p style="margin-top: 15px; font-size: 0.75rem; opacity: 0.8; line-height: 1.4; text-align: justify;">
+                <strong>Disclaimer & Partner Disclosure:</strong> This website is owned and operated by an Authorized Channel Partner (Marketing Partner) of the developer. It is not the official developer website. The content, including images, graphics, floor plans, pricing, and availability of flats at Arihant City, is provided purely for informational and promotional purposes and is subject to change at the developer's discretion. The official RERA numbers for the project are: 
+                <a href="https://maharerait.mahaonline.gov.in" target="_blank" rel="noopener" style="color:#fff; text-decoration:underline;">MahaRERA Registration No</a>: Phase-I: P51700010884, D3 Tower: P51700022743, Phase-II: P51700028429, P51700028441, P51700044483, P51700010350. Please refer to official developer documents or RERA portal for binding specifications.
             </p>
         </div>
     </footer>
@@ -1163,7 +1187,7 @@ function get_val($key, $fallback = '')
                     </select>
                     <button type="submit" class="modal-submit-btn" aria-label="Claim Offer for Arihant City">🎯 Claim Your Offer Now</button>
                 </form>
-                <p style="text-align:center; font-size:0.7rem; color:#999; margin-top:12px;">*T&C Apply. Limited period offer.</p>
+                <p style="text-align:center; font-size:0.7rem; color:#999; margin-top:12px;">*T&C Apply. Discount of ₹5 Lakhs is applicable on select configurations for bookings completed within the promotional period. Prices are subject to change. Taxes, registration, stamp duty, and other charges are extra.</p>
             </div>
         </div>
     </div>
