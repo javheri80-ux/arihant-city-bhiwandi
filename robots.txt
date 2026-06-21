@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /admin.php
+Disallow: /data.json
+Disallow: /contact.php
+Disallow: /baba-leads.php
+
+Sitemap: https://www.arihantcity.site/sitemap.xml
