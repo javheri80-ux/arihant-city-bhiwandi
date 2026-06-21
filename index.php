@@ -72,7 +72,7 @@ function get_val($key, $fallback = '')
       "logo": "https://www.arihantcity.site/images/site_logo_1776905712.webp",
       "contactPoint": {
         "@type": "ContactPoint",
-        "telephone": "+91-9860949793",
+        "telephone": "+91-9028259563",
         "contactType": "sales"
       }
     }
@@ -119,7 +119,7 @@ function get_val($key, $fallback = '')
         "postalCode": "421302",
         "addressCountry": "IN"
       },
-      "telephone": "+91-9860949793",
+      "telephone": "+91-9028259563",
       "openingHours": "Mo-Su 09:00-19:00"
     }
     </script>
@@ -744,7 +744,7 @@ function get_val($key, $fallback = '')
 <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <div class="top-disclaimer-bar">
-        Disclaimer: This is an Authorized Channel Partner website. It is not the official developer website. MahaRERA Phase-I No: P51700010884. Sales Helpline: <a href="tel:+919860949793">+91 98609 49793</a>
+        Disclaimer: This is an Authorized Channel Partner website. It is not the official developer website. MahaRERA Phase-I No: P51700010884. Sales Helpline: <a href="tel:+919028259563">+91 90282 59563</a>
     </div>
     <header>
         <div class="nav-container container">
@@ -1120,7 +1120,7 @@ function get_val($key, $fallback = '')
             <p style="margin-bottom: 10px;">© 2026 Arihant City Kalyan Bhiwandi. All Rights Reserved.</p>
             <p style="margin-bottom: 10px; font-size: 0.8rem;">
                 <strong>Office Address:</strong> Kalyan-Bhiwandi Bypass, Bhiwandi, Maharashtra 421302. <br>
-                <strong>Helpline:</strong> <a href="tel:+919860949793" style="color: #fff; text-decoration: underline;">+91 98609 49793</a> | 
+                <strong>Helpline:</strong> <a href="tel:+919028259563" style="color: #fff; text-decoration: underline;">+91 90282 59563</a> | 
                 <strong>Email:</strong> <a href="mailto:javheri80@gmail.com" style="color: #fff; text-decoration: underline;">javheri80@gmail.com</a>
             </p>
             
