@@ -806,7 +806,7 @@ function get_val($key, $fallback = '')
                 </div>
                 <img src="<?= get_val('story_img', 'images/story_img_1776905960.webp') ?>"
                     alt="Arihant City Kalyan Bhiwandi Legacy and Developer Story"
-                    style="max-width: 700px; margin: 0 auto; border: 5px solid #fff;" loading="lazy" width="700"
+                    style="width:100%; max-width: 700px; height:auto; margin: 0 auto; border: 5px solid #fff; border-radius:10px; display:block;" loading="lazy" width="700"
                     height="400">
             </div>
         </section>
