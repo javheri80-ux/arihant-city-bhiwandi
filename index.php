@@ -585,12 +585,16 @@ function get_val($key, $fallback = '')
 
         .modal-body input,
         .modal-body select {
+            width: 100%;
+            box-sizing: border-box;
             border: 1px solid #e1e1e1;
             background: #f9f9f9;
             margin-bottom: 15px;
             padding: 14px 15px;
             transition: 0.3s;
             font-size: 0.95rem;
+            border-radius: 8px;
+            display: block;
         }
 
         .modal-body input:focus,
@@ -672,6 +676,35 @@ function get_val($key, $fallback = '')
         @media (max-width: 768px) {
             .grid-4x3 {
                 grid-template-columns: repeat(2, 1fr);
+            }
+
+            .modal-content {
+                width: 95%;
+                max-width: 380px;
+                margin: 10px;
+            }
+
+            .modal-header {
+                padding: 20px 15px;
+            }
+
+            .modal-header h2 {
+                font-size: 1.2rem;
+            }
+
+            .modal-body {
+                padding: 20px 15px;
+            }
+
+            .modal-body input,
+            .modal-body select {
+                padding: 12px;
+                font-size: 0.9rem;
+            }
+
+            .modal-submit-btn {
+                padding: 13px;
+                font-size: 0.9rem;
             }
         }
 
