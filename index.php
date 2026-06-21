@@ -1065,7 +1065,7 @@ function get_val($key, $fallback = '')
                 <p>Register now to receive exclusive deals and special offers.<br><br><span
                         style="font-size:0.85rem; font-weight:bold; color:var(--primary-maroon);">MahaRERA Approved
                         Project | Transparent & Secure Buying</span></p>
-                <form action="https://formsubmit.co/javheri80@gmail.com" method="POST" id="contact-form" name="contactForm"
+                <form action="https://formsubmit.co/7feb28d6252b2106c66547912d8f13df" method="POST" id="contact-form" name="contactForm"
                     aria-label="Arihant City Booking Form">
                     <input type="hidden" name="_next" value="https://www.arihantcity.site/thank-you.html">
                     <input type="hidden" name="_subject" value="New Enquiry: Arihant City Kalyan Bhiwandi">
@@ -1116,7 +1116,7 @@ function get_val($key, $fallback = '')
                 <p>Register for exclusive offers & pricing</p>
             </div>
             <div class="modal-body">
-                <form action="https://formsubmit.co/javheri80@gmail.com" method="POST" aria-label="Arihant City Price Request Form">
+                <form action="https://formsubmit.co/7feb28d6252b2106c66547912d8f13df" method="POST" aria-label="Arihant City Price Request Form">
                     <input type="hidden" name="_next" value="https://www.arihantcity.site/thank-you.html">
                     <input type="hidden" name="_subject" value="Price Request: Arihant City Kalyan Bhiwandi">
                     <input type="hidden" name="_captcha" value="false">
@@ -1147,7 +1147,7 @@ function get_val($key, $fallback = '')
                 <p style="font-size:0.9rem; margin-top:8px;">Register now & get <strong style="color:#ffd700;">₹5 Lakh OFF*</strong> on booking</p>
             </div>
             <div class="modal-body">
-                <form action="https://formsubmit.co/javheri80@gmail.com" method="POST" aria-label="Arihant City Page Load Enquiry Form">
+                <form action="https://formsubmit.co/7feb28d6252b2106c66547912d8f13df" method="POST" aria-label="Arihant City Page Load Enquiry Form">
                     <input type="hidden" name="_next" value="https://www.arihantcity.site/thank-you.html">
                     <input type="hidden" name="_subject" value="🔥 Hot Lead (Popup): Arihant City Kalyan Bhiwandi">
                     <input type="hidden" name="_captcha" value="false">
