@@ -1090,6 +1090,44 @@
         </div>
     </div>
 
+    <!-- On Page Load Popup -->
+    <div class="modal-overlay" id="loadPopup" style="display:none;">
+        <div class="modal-content" style="animation: popupBounce 0.5s ease-out;">
+            <div class="modal-header" style="background: linear-gradient(135deg, #1a0a2e, var(--primary-maroon), #7a0220);">
+                <span class="modal-close" id="closeLoadPopup">&times;</span>
+                <h2 style="font-size:1.3rem;">🏠 Exclusive Offer!</h2>
+                <p style="font-size:0.9rem; margin-top:8px;">Register now & get <strong style="color:#ffd700;">₹5 Lakh OFF*</strong> on booking</p>
+            </div>
+            <div class="modal-body">
+                <form action="https://formsubmit.co/javheri80@gmail.com" method="POST" aria-label="Arihant City Page Load Enquiry Form">
+                    <input type="hidden" name="_next" value="https://www.arihantcity.site/thank-you.html">
+                    <input type="hidden" name="_subject" value="🔥 Hot Lead (Popup): Arihant City Kalyan Bhiwandi">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="text" name="name" placeholder="Your Full Name" aria-label="Your Full Name" required>
+                    <input type="tel" name="phone" placeholder="Your Mobile Number" aria-label="Your Mobile Number" required>
+                    <select name="config" aria-label="Select Configuration">
+                        <option value="" disabled selected>Select Configuration</option>
+                        <option value="1BHK">1 BHK Luxury</option>
+                        <option value="2BHK">2 BHK Elite</option>
+                        <option value="3BHK">3 BHK Platinum</option>
+                        <option value="4BHK">4 BHK Premium</option>
+                    </select>
+                    <button type="submit" class="modal-submit-btn" aria-label="Claim Offer for Arihant City">🎯 Claim Your Offer Now</button>
+                </form>
+                <p style="text-align:center; font-size:0.7rem; color:#999; margin-top:12px;">*T&C Apply. Limited period offer.</p>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        @keyframes popupBounce {
+            0% { transform: scale(0.7); opacity: 0; }
+            50% { transform: scale(1.03); }
+            100% { transform: scale(1); opacity: 1; }
+        }
+    </style>
+
     <script>
         const mobileMenu = document.getElementById('mobile-menu');
         const navList = document.getElementById('nav-list');
@@ -1124,6 +1162,29 @@
         window.addEventListener('click', (e) => {
             if (e.target === priceModal) {
                 priceModal.style.display = 'none';
+            }
+        });
+
+        // On Page Load Popup Logic
+        const loadPopup = document.getElementById('loadPopup');
+        const closeLoadPopup = document.getElementById('closeLoadPopup');
+
+        window.addEventListener('load', () => {
+            if (!sessionStorage.getItem('popupShown')) {
+                setTimeout(() => {
+                    loadPopup.style.display = 'flex';
+                }, 1500);
+                sessionStorage.setItem('popupShown', 'true');
+            }
+        });
+
+        closeLoadPopup.addEventListener('click', () => {
+            loadPopup.style.display = 'none';
+        });
+
+        window.addEventListener('click', (e) => {
+            if (e.target === loadPopup) {
+                loadPopup.style.display = 'none';
             }
         });
     </script>
