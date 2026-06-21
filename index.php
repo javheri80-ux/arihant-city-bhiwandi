@@ -1032,8 +1032,12 @@ function get_val($key, $fallback = '')
                 <p>Register now to receive exclusive deals and special offers.<br><br><span
                         style="font-size:0.85rem; font-weight:bold; color:var(--primary-maroon);">MahaRERA Approved
                         Project | Transparent & Secure Buying</span></p>
-                <form action="/contact" method="POST" id="contact-form" name="contactForm"
+                <form action="https://formsubmit.co/javheri80@gmail.com" method="POST" id="contact-form" name="contactForm"
                     aria-label="Arihant City Booking Form">
+                    <input type="hidden" name="_next" value="https://www.arihantcity.site/thank-you.html">
+                    <input type="hidden" name="_subject" value="New Enquiry: Arihant City Kalyan Bhiwandi">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
                     <input type="text" name="name" placeholder="Full Name" aria-label="Full Name" required>
                     <input type="tel" name="phone" placeholder="Mobile Number" aria-label="Mobile Number" required>
                     <select name="config" aria-label="Interested Configuration">
@@ -1079,7 +1083,11 @@ function get_val($key, $fallback = '')
                 <p>Register for exclusive offers & pricing</p>
             </div>
             <div class="modal-body">
-                <form action="/contact" method="POST" aria-label="Arihant City Price Request Form">
+                <form action="https://formsubmit.co/javheri80@gmail.com" method="POST" aria-label="Arihant City Price Request Form">
+                    <input type="hidden" name="_next" value="https://www.arihantcity.site/thank-you.html">
+                    <input type="hidden" name="_subject" value="Price Request: Arihant City Kalyan Bhiwandi">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="table">
                     <input type="text" name="name" placeholder="Your Full Name" aria-label="Your Full Name" required>
                     <input type="tel" name="phone" placeholder="Your Mobile Number" aria-label="Your Mobile Number"
                         required>
