@@ -4,6 +4,24 @@
       "runtime": "vercel-php@0.9.0"
     }
   },
+  "redirects": [
+    {
+      "source": "/index.php",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "arihantcity.site"
+        }
+      ],
+      "destination": "https://www.arihantcity.site/:path*",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/admin",
@@ -18,8 +36,88 @@
       "destination": "/api/baba-leads.php"
     },
     {
-      "source": "/index.php",
-      "destination": "/api/index.php"
+      "source": "/price",
+      "destination": "/arihant-city-price.html"
+    },
+    {
+      "source": "/arihant-city-price",
+      "destination": "/arihant-city-price.html"
+    },
+    {
+      "source": "/floor-plans",
+      "destination": "/arihant-city-floor-plans.html"
+    },
+    {
+      "source": "/arihant-city-floor-plans",
+      "destination": "/arihant-city-floor-plans.html"
+    },
+    {
+      "source": "/location",
+      "destination": "/arihant-city-location.html"
+    },
+    {
+      "source": "/arihant-city-location",
+      "destination": "/arihant-city-location.html"
+    },
+    {
+      "source": "/amenities",
+      "destination": "/arihant-city-amenities.html"
+    },
+    {
+      "source": "/arihant-city-amenities",
+      "destination": "/arihant-city-amenities.html"
+    },
+    {
+      "source": "/configurations",
+      "destination": "/arihant-city-configurations.html"
+    },
+    {
+      "source": "/arihant-city-configurations",
+      "destination": "/arihant-city-configurations.html"
+    },
+    {
+      "source": "/maharera",
+      "destination": "/arihant-city-maharera.html"
+    },
+    {
+      "source": "/arihant-city-maharera",
+      "destination": "/arihant-city-maharera.html"
+    },
+    {
+      "source": "/developer",
+      "destination": "/arihant-city-developer.html"
+    },
+    {
+      "source": "/arihant-city-developer",
+      "destination": "/arihant-city-developer.html"
+    },
+    {
+      "source": "/brochure",
+      "destination": "/arihant-city-brochure.html"
+    },
+    {
+      "source": "/arihant-city-brochure",
+      "destination": "/arihant-city-brochure.html"
+    },
+    {
+      "source": "/gallery",
+      "destination": "/arihant-city-gallery.html"
+    },
+    {
+      "source": "/arihant-city-gallery",
+      "destination": "/arihant-city-gallery.html"
+    },
+    {
+      "source": "/faqs",
+      "destination": "/arihant-city-faqs.html"
+    },
+    {
+      "source": "/arihant-city-faqs",
+      "destination": "/arihant-city-faqs.html"
+    },
+    {
+      "source": "/blogs",
+      "destination": "/blog.html"
     },
     {
       "source": "/2-bhk-flat-in-bhiwandi",
@@ -114,7 +212,3 @@
     }
   ]
 }
-
-
-
-

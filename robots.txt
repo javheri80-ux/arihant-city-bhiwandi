@@ -1,8 +1,33 @@
+# robots.txt for https://www.arihantcity.site/
+# Target Entity: Arihant City (Kalyan-Bhiwandi Bypass, Bhiwandi, Maharashtra)
+
 User-agent: *
 Allow: /
+Allow: /images/
 Disallow: /admin.php
-Disallow: /data.json
-Disallow: /contact.php
 Disallow: /baba-leads.php
+Disallow: /contact.php
+Disallow: /data.json
+Disallow: /keywords_data.json
+Disallow: /scratch/
+Disallow: /seo-audit/
 
+# Googlebot specific directives
+User-agent: Googlebot
+Allow: /
+Allow: /images/
+Disallow: /admin.php
+Disallow: /baba-leads.php
+Disallow: /contact.php
+Disallow: /data.json
+Disallow: /keywords_data.json
+Disallow: /scratch/
+Disallow: /seo-audit/
+
+# Googlebot-Image specific directives
+User-agent: Googlebot-Image
+Allow: /images/
+
+# XML Sitemap and Host declarations
 Sitemap: https://www.arihantcity.site/sitemap.xml
+Host: https://www.arihantcity.site

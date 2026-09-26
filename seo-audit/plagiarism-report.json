@@ -1,0 +1,4883 @@
+{
+  "auditDate": "2026-09-26T14:12:35.856Z",
+  "apiStatus": "External plagiarism API verification: NOT AVAILABLE (Environment key PLAGIARISM_API_KEY not configured)",
+  "webSearchVerification": "PERFORMED (Targeted exact-match and phrase-match searches via Search Web)",
+  "summary": {
+    "totalFilesScanned": 243,
+    "totalPagesScanned": 240,
+    "totalWordsAnalyzed": 259108,
+    "exactDuplicates": 108,
+    "nearDuplicates": 19635,
+    "potentialExternalMatches": 3,
+    "highRiskPagesCount": 20,
+    "criticalPagesCount": 205,
+    "pagesRequiringReview": 225,
+    "pagesRequiringRewriting": 225,
+    "internalContentUniquenessScore": 33
+  },
+  "externalMatches": [
+    {
+      "phrase": "Arihant City fulfilled our dream home aspirations. The environment, active clubhouse, and outstanding connectivity to Kalyan station are highly appreciated",
+      "sourceUrl": "https://arihant.city / https://proptiger.com / https://justdial.com",
+      "sourceTitle": "Arihant City Reviews / PropTiger / Justdial",
+      "matchType": "EXACT MATCH",
+      "similarity": 100,
+      "confidence": "HIGH",
+      "pagesAffected": [
+        "index.html",
+        "index.php",
+        "blog/*.html"
+      ],
+      "classification": "EXACT MATCH (Legacy Developer Promotional Copy & Review Syndication)"
+    },
+    {
+      "phrase": "32-Acre Mega Township on Kalyan-Bhiwandi Bypass featuring 26-storey D3 Signature Tower with luxury 1 & 2 BHK balcony flats",
+      "sourceUrl": "https://gharjunction.com / https://housing.com / https://blox.xyz",
+      "sourceTitle": "Gharjunction / Housing.com / Blox",
+      "matchType": "CLOSE PARAPHRASE",
+      "similarity": 88,
+      "confidence": "HIGH",
+      "pagesAffected": [
+        "index.html",
+        "index.php",
+        "blog/*.html"
+      ],
+      "classification": "CLOSE PARAPHRASE (Standardized Developer Project Specification)"
+    },
+    {
+      "phrase": "Arihant City is located at the prime Kalyan Bypass, Bhiwandi, offering excellent connectivity to highways and public transport",
+      "sourceUrl": "https://gharjunction.com / https://blox.xyz / https://arihant.city",
+      "sourceTitle": "Gharjunction / Blox.xyz / Arihant.city",
+      "matchType": "EXACT MATCH",
+      "similarity": 95,
+      "confidence": "HIGH",
+      "pagesAffected": [
+        "index.html",
+        "index.php"
+      ],
+      "classification": "EXACT MATCH (Syndicated FAQ copy)"
+    }
+  ],
+  "top20HighestRiskPages": [
+    {
+      "filePath": "1-bhk-flat-in-bhiwandi-for-sale.html",
+      "title": "1 BHK Flat in Bhiwandi for Sale – Buy Premium Homes in Arihant City",
+      "wordCount": 1282,
+      "risk": "CRITICAL",
+      "clichesCount": 6
+    },
+    {
+      "filePath": "2-bhk-flat-in-anjur-phata-bhiwandi.html",
+      "title": "2 BHK Flat in Anjur Phata Bhiwandi – Premium Apartments in Arihant City",
+      "wordCount": 1266,
+      "risk": "CRITICAL",
+      "clichesCount": 7
+    },
+    {
+      "filePath": "2-bhk-flat-in-bhiwandi-for-sale.html",
+      "title": "2 BHK Flat in Bhiwandi for Sale – Buy Luxury Homes in Arihant City",
+      "wordCount": 1289,
+      "risk": "CRITICAL",
+      "clichesCount": 6
+    },
+    {
+      "filePath": "blog/1-bhk-apartment-in-bhiwandi.html",
+      "title": "1 BHK Apartment In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1129,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    },
+    {
+      "filePath": "blog/1-bhk-apartments-in-bhiwandi.html",
+      "title": "1 BHK Apartments In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1129,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    },
+    {
+      "filePath": "blog/1-bhk-flat-for-sale-in-bhiwandi.html",
+      "title": "1 BHK Flat For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1147,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    },
+    {
+      "filePath": "blog/1-bhk-flat-in-bhiwandi.html",
+      "title": "1 BHK Flat In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1129,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    },
+    {
+      "filePath": "blog/1-bhk-flats-for-sale-in-bhiwandi.html",
+      "title": "1 BHK Flats For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1147,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    },
+    {
+      "filePath": "blog/1-bhk-flats-in-bhiwandi.html",
+      "title": "1 BHK Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1129,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    },
+    {
+      "filePath": "blog/1-bhk-homes-in-bhiwandi.html",
+      "title": "1 BHK Homes In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1128,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    },
+    {
+      "filePath": "blog/1-bhk-in-bhiwandi.html",
+      "title": "1 BHK In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1120,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    },
+    {
+      "filePath": "blog/1-bhk-in-temghar.html",
+      "title": "1 BHK In Temghar | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1099,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    },
+    {
+      "filePath": "blog/1-bhk-near-kalyan-bhiwandi-road.html",
+      "title": "1 BHK Near Kalyan Bhiwandi Road | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1129,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    },
+    {
+      "filePath": "blog/1-bhk-property-in-bhiwandi.html",
+      "title": "1 BHK Property In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1128,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    },
+    {
+      "filePath": "blog/2-bhk-apartment-in-bhiwandi.html",
+      "title": "2 BHK Apartment In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1123,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    },
+    {
+      "filePath": "blog/2-bhk-apartments-in-bhiwandi.html",
+      "title": "2 BHK Apartments In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1123,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    },
+    {
+      "filePath": "blog/2-bhk-flat-for-sale-in-bhiwandi.html",
+      "title": "2 BHK Flat For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1141,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    },
+    {
+      "filePath": "blog/2-bhk-flat-in-bhiwandi.html",
+      "title": "2 BHK Flat In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1123,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    },
+    {
+      "filePath": "blog/2-bhk-flats-for-sale-in-bhiwandi.html",
+      "title": "2 BHK Flats For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1141,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    },
+    {
+      "filePath": "blog/2-bhk-flats-in-bhiwandi.html",
+      "title": "2 BHK Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1123,
+      "risk": "CRITICAL",
+      "clichesCount": 3
+    }
+  ],
+  "top20InternalDuplicates": [
+    {
+      "file1": "index.html",
+      "file2": "index.php",
+      "similarity": 100,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/1-bhk-flat-for-sale-in-bhiwandi.html",
+      "file2": "blog/1-bhk-flats-for-sale-in-bhiwandi.html",
+      "similarity": 99,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/2-bhk-flat-for-sale-in-bhiwandi.html",
+      "file2": "blog/2-bhk-flats-for-sale-in-bhiwandi.html",
+      "similarity": 99,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/1-bhk-flat-for-sale-in-bhiwandi.html",
+      "file2": "blog/1-bhk-flat-in-bhiwandi.html",
+      "similarity": 98,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/1-bhk-flats-for-sale-in-bhiwandi.html",
+      "file2": "blog/1-bhk-flats-in-bhiwandi.html",
+      "similarity": 98,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/2-bhk-flat-for-sale-in-bhiwandi.html",
+      "file2": "blog/2-bhk-flat-in-bhiwandi.html",
+      "similarity": 98,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/2-bhk-flats-for-sale-in-bhiwandi.html",
+      "file2": "blog/2-bhk-flats-in-bhiwandi.html",
+      "similarity": 98,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/new-1-bhk-flats-in-bhiwandi.html",
+      "file2": "blog/new-1-bhk-in-bhiwandi.html",
+      "similarity": 98,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/new-2-bhk-flats-in-bhiwandi.html",
+      "file2": "blog/new-2-bhk-in-bhiwandi.html",
+      "similarity": 98,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/property-near-bhiwandi-railway-station.html",
+      "file2": "blog/property-near-bhiwandi-road-railway-station.html",
+      "similarity": 98,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/1-bhk-apartment-in-bhiwandi.html",
+      "file2": "blog/1-bhk-apartments-in-bhiwandi.html",
+      "similarity": 97,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/1-bhk-apartment-in-bhiwandi.html",
+      "file2": "blog/1-bhk-flat-for-sale-in-bhiwandi.html",
+      "similarity": 97,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/1-bhk-apartment-in-bhiwandi.html",
+      "file2": "blog/1-bhk-flat-in-bhiwandi.html",
+      "similarity": 97,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/1-bhk-apartment-in-bhiwandi.html",
+      "file2": "blog/1-bhk-flats-for-sale-in-bhiwandi.html",
+      "similarity": 97,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/1-bhk-apartment-in-bhiwandi.html",
+      "file2": "blog/1-bhk-flats-in-bhiwandi.html",
+      "similarity": 97,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/1-bhk-apartments-in-bhiwandi.html",
+      "file2": "blog/1-bhk-flat-for-sale-in-bhiwandi.html",
+      "similarity": 97,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/1-bhk-apartments-in-bhiwandi.html",
+      "file2": "blog/1-bhk-flat-in-bhiwandi.html",
+      "similarity": 97,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/1-bhk-apartments-in-bhiwandi.html",
+      "file2": "blog/1-bhk-flats-for-sale-in-bhiwandi.html",
+      "similarity": 97,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/1-bhk-apartments-in-bhiwandi.html",
+      "file2": "blog/1-bhk-flats-in-bhiwandi.html",
+      "similarity": 97,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    },
+    {
+      "file1": "blog/1-bhk-flat-for-sale-in-bhiwandi.html",
+      "file2": "blog/1-bhk-flats-in-bhiwandi.html",
+      "similarity": 97,
+      "level": "CRITICAL",
+      "type": "EXACT DUPLICATE"
+    }
+  ],
+  "pages": [
+    {
+      "filePath": "1-bhk-flat-in-bhiwandi-for-sale.html",
+      "title": "1 BHK Flat in Bhiwandi for Sale – Buy Premium Homes in Arihant City",
+      "wordCount": 1282,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/1-bhk-flat-in-bhiwandi-for-sale",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 4,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "2-bhk-flat-in-anjur-phata-bhiwandi.html",
+      "title": "2 BHK Flat in Anjur Phata Bhiwandi – Premium Apartments in Arihant City",
+      "wordCount": 1266,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/2-bhk-flat-in-anjur-phata-bhiwandi",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 4,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "ultra-luxury",
+          "count": 1,
+          "issue": "Subjective buzzword without standard grading."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "2-bhk-flat-in-bhiwandi-for-sale.html",
+      "title": "2 BHK Flat in Bhiwandi for Sale – Buy Luxury Homes in Arihant City",
+      "wordCount": 1289,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/2-bhk-flat-in-bhiwandi-for-sale",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 4,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/1-bhk-apartment-in-bhiwandi.html",
+      "title": "1 BHK Apartment In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1129,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/1-bhk-apartment-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/1-bhk-apartments-in-bhiwandi.html",
+      "title": "1 BHK Apartments In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1129,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/1-bhk-apartments-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/1-bhk-flat-for-sale-in-bhiwandi.html",
+      "title": "1 BHK Flat For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1147,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/1-bhk-flat-for-sale-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/1-bhk-flat-in-bhiwandi.html",
+      "title": "1 BHK Flat In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1129,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/1-bhk-flat-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/1-bhk-flats-for-sale-in-bhiwandi.html",
+      "title": "1 BHK Flats For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1147,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/1-bhk-flats-for-sale-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/1-bhk-flats-in-bhiwandi.html",
+      "title": "1 BHK Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1129,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/1-bhk-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/1-bhk-homes-in-bhiwandi.html",
+      "title": "1 BHK Homes In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1128,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/1-bhk-homes-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/1-bhk-in-bhiwandi.html",
+      "title": "1 BHK In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1120,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/1-bhk-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/1-bhk-in-temghar.html",
+      "title": "1 BHK In Temghar | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1099,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/1-bhk-in-temghar.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/1-bhk-near-kalyan-bhiwandi-road.html",
+      "title": "1 BHK Near Kalyan Bhiwandi Road | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1129,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/1-bhk-near-kalyan-bhiwandi-road.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/1-bhk-property-in-bhiwandi.html",
+      "title": "1 BHK Property In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1128,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/1-bhk-property-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/2-bhk-apartment-in-bhiwandi.html",
+      "title": "2 BHK Apartment In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1123,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/2-bhk-apartment-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/2-bhk-apartments-in-bhiwandi.html",
+      "title": "2 BHK Apartments In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1123,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/2-bhk-apartments-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/2-bhk-flat-for-sale-in-bhiwandi.html",
+      "title": "2 BHK Flat For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1141,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/2-bhk-flat-for-sale-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/2-bhk-flat-in-bhiwandi.html",
+      "title": "2 BHK Flat In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1123,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/2-bhk-flat-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/2-bhk-flats-for-sale-in-bhiwandi.html",
+      "title": "2 BHK Flats For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1141,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/2-bhk-flats-for-sale-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/2-bhk-flats-in-bhiwandi.html",
+      "title": "2 BHK Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1123,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/2-bhk-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/2-bhk-homes-in-bhiwandi.html",
+      "title": "2 BHK Homes In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1122,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/2-bhk-homes-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/2-bhk-in-bhiwandi.html",
+      "title": "2 BHK In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1114,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/2-bhk-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/2-bhk-in-temghar.html",
+      "title": "2 BHK In Temghar | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1099,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/2-bhk-in-temghar.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/2-bhk-near-kalyan-bhiwandi-road.html",
+      "title": "2 BHK Near Kalyan Bhiwandi Road | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1129,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/2-bhk-near-kalyan-bhiwandi-road.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/2-bhk-property-in-bhiwandi.html",
+      "title": "2 BHK Property In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1122,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/2-bhk-property-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/affordable-1-bhk-flats-in-bhiwandi.html",
+      "title": "Affordable 1 BHK Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1128,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/affordable-1-bhk-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/affordable-1-bhk-in-bhiwandi.html",
+      "title": "Affordable 1 BHK In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1128,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/affordable-1-bhk-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/affordable-2-bhk-flats-in-bhiwandi.html",
+      "title": "Affordable 2 BHK Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1128,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/affordable-2-bhk-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/affordable-2-bhk-in-bhiwandi.html",
+      "title": "Affordable 2 BHK In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1122,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/affordable-2-bhk-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/affordable-apartments-in-bhiwandi.html",
+      "title": "Affordable Apartments In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/affordable-apartments-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/affordable-flats-in-bhiwandi.html",
+      "title": "Affordable Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/affordable-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/affordable-flats-near-kalyan-bhiwandi-road.html",
+      "title": "Affordable Flats Near Kalyan Bhiwandi Road | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1129,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/affordable-flats-near-kalyan-bhiwandi-road.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/affordable-homes-in-bhiwandi.html",
+      "title": "Affordable Homes In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1119,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/affordable-homes-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/affordable-property-in-bhiwandi.html",
+      "title": "Affordable Property In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1119,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/affordable-property-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/apartment-in-bhiwandi.html",
+      "title": "Apartment In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1086,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/apartment-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/apartments-for-sale-in-bhiwandi.html",
+      "title": "Apartments For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1104,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/apartments-for-sale-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/apartments-in-bhiwandi.html",
+      "title": "Apartments In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1086,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/apartments-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/average-property-price-in-bhiwandi.html",
+      "title": "Average Property Price In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1105,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/average-property-price-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/best-1-bhk-flats-in-bhiwandi.html",
+      "title": "Best 1 BHK Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1128,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/best-1-bhk-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/best-2-bhk-flats-in-bhiwandi.html",
+      "title": "Best 2 BHK Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1128,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/best-2-bhk-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/best-affordable-flats-in-bhiwandi.html",
+      "title": "Best Affordable Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1129,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/best-affordable-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/best-flats-to-buy-in-bhiwandi.html",
+      "title": "Best Flats To Buy In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1128,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/best-flats-to-buy-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/best-locality-in-bhiwandi.html",
+      "title": "Best Locality In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/best-locality-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/best-places-to-live-in-bhiwandi.html",
+      "title": "Best Places To Live In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1112,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/best-places-to-live-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/best-property-investment-in-bhiwandi.html",
+      "title": "Best Property Investment In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1119,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/best-property-investment-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/best-residential-areas-in-bhiwandi.html",
+      "title": "Best Residential Areas In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1103,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/best-residential-areas-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/best-residential-projects-in-bhiwandi.html",
+      "title": "Best Residential Projects In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1119,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/best-residential-projects-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-affordable-housing-projects.html",
+      "title": "Bhiwandi Affordable Housing Projects | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1092,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-affordable-housing-projects.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-apartment-projects.html",
+      "title": "Bhiwandi Apartment Projects | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1082,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-apartment-projects.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-builders.html",
+      "title": "Bhiwandi Builders | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1078,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-builders.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-construction-companies.html",
+      "title": "Bhiwandi Construction Companies | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1088,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-construction-companies.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-developers.html",
+      "title": "Bhiwandi Developers | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1078,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-developers.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-developing-areas.html",
+      "title": "Bhiwandi Developing Areas | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1085,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-developing-areas.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-flat-prices.html",
+      "title": "Bhiwandi Flat Prices | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1085,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-flat-prices.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-flat-rates.html",
+      "title": "Bhiwandi Flat Rates | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1085,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-flat-rates.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-gated-community.html",
+      "title": "Bhiwandi Gated Community | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1082,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-gated-community.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-housing-projects.html",
+      "title": "Bhiwandi Housing Projects | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1082,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-housing-projects.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-integrated-township.html",
+      "title": "Bhiwandi Integrated Township | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1082,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-integrated-township.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-luxury-projects.html",
+      "title": "Bhiwandi Luxury Projects | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1082,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-luxury-projects.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-new-launch-projects.html",
+      "title": "Bhiwandi New Launch Projects | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1091,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-new-launch-projects.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-new-launch.html",
+      "title": "Bhiwandi New Launch | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1082,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-new-launch.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-new-projects.html",
+      "title": "Bhiwandi New Projects | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1082,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-new-projects.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-new-residential-projects.html",
+      "title": "Bhiwandi New Residential Projects | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1091,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-new-residential-projects.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-premium-residential-projects.html",
+      "title": "Bhiwandi Premium Residential Projects | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1092,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-premium-residential-projects.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-properties.html",
+      "title": "Bhiwandi Properties | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1076,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-properties.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-property-broker.html",
+      "title": "Bhiwandi Property Broker | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1088,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-property-broker.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-property-consultant.html",
+      "title": "Bhiwandi Property Consultant | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1088,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-property-consultant.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-property-dealer.html",
+      "title": "Bhiwandi Property Dealer | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1089,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-property-dealer.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-property-investment-guide.html",
+      "title": "Bhiwandi Property Investment Guide | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1095,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-property-investment-guide.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-property-market.html",
+      "title": "Bhiwandi Property Market | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1085,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-property-market.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-property-prices.html",
+      "title": "Bhiwandi Property Prices | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1085,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-property-prices.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-property-rates.html",
+      "title": "Bhiwandi Property Rates | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1085,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-property-rates.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-property.html",
+      "title": "Bhiwandi Property | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1076,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-property.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-real-estate-agent.html",
+      "title": "Bhiwandi Real Estate Agent | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1098,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-real-estate-agent.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-real-estate-investment.html",
+      "title": "Bhiwandi Real Estate Investment | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1095,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-real-estate-investment.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-real-estate-market.html",
+      "title": "Bhiwandi Real Estate Market | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-real-estate-market.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-real-estate-prices.html",
+      "title": "Bhiwandi Real Estate Prices | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1095,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-real-estate-prices.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-real-estate.html",
+      "title": "Bhiwandi Real Estate | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1085,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-real-estate.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-residential-areas.html",
+      "title": "Bhiwandi Residential Areas | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1085,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-residential-areas.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-residential-projects.html",
+      "title": "Bhiwandi Residential Projects | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1082,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-residential-projects.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-township-projects.html",
+      "title": "Bhiwandi Township Projects | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1082,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-township-projects.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-upcoming-projects.html",
+      "title": "Bhiwandi Upcoming Projects | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1082,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-upcoming-projects.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-upcoming-residential-projects.html",
+      "title": "Bhiwandi Upcoming Residential Projects | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1091,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-upcoming-residential-projects.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/budget-flats-in-bhiwandi.html",
+      "title": "Budget Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1119,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/budget-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/buy-apartment-in-bhiwandi.html",
+      "title": "Buy Apartment In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1098,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/buy-apartment-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/buy-flat-in-bhiwandi.html",
+      "title": "Buy Flat In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1098,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/buy-flat-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/buy-property-in-bhiwandi.html",
+      "title": "Buy Property In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1098,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/buy-property-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/cheap-1-bhk-flats-in-bhiwandi.html",
+      "title": "Cheap 1 BHK Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1138,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/cheap-1-bhk-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/cheap-flats-in-bhiwandi.html",
+      "title": "Cheap Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1119,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/cheap-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/commercial-land-in-bhiwandi.html",
+      "title": "Commercial Land In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1109,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/commercial-land-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/commercial-office-in-bhiwandi.html",
+      "title": "Commercial Office In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1108,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/commercial-office-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/commercial-projects-in-bhiwandi.html",
+      "title": "Commercial Projects In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1108,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/commercial-projects-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/commercial-properties-in-bhiwandi.html",
+      "title": "Commercial Properties In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/commercial-properties-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/commercial-property-in-bhiwandi.html",
+      "title": "Commercial Property In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/commercial-property-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/commercial-shop-for-sale-in-bhiwandi.html",
+      "title": "Commercial Shop For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1126,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/commercial-shop-for-sale-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/commercial-shops-in-bhiwandi.html",
+      "title": "Commercial Shops In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1108,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/commercial-shops-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/construction-projects-in-bhiwandi.html",
+      "title": "Construction Projects In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/construction-projects-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flat-booking-in-bhiwandi.html",
+      "title": "Flat Booking In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1098,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flat-booking-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flat-for-sale-in-bhiwandi.html",
+      "title": "Flat For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1104,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flat-for-sale-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flat-in-bhiwandi.html",
+      "title": "Flat In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1086,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flat-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flat-rates-in-bhiwandi.html",
+      "title": "Flat Rates In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1095,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flat-rates-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-for-sale-in-bhiwandi.html",
+      "title": "Flats For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1104,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-for-sale-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-in-anjurphata.html",
+      "title": "Flats In Anjurphata | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1090,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-in-anjurphata.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-in-bhiwandi-under-20-lakhs.html",
+      "title": "Flats In Bhiwandi Under 20 Lakhs | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1137,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-in-bhiwandi-under-20-lakhs.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-in-bhiwandi-under-25-lakhs.html",
+      "title": "Flats In Bhiwandi Under 25 Lakhs | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1137,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-in-bhiwandi-under-25-lakhs.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-in-bhiwandi-under-30-lakhs.html",
+      "title": "Flats In Bhiwandi Under 30 Lakhs | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1137,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-in-bhiwandi-under-30-lakhs.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-in-bhiwandi-under-35-lakhs.html",
+      "title": "Flats In Bhiwandi Under 35 Lakhs | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1137,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-in-bhiwandi-under-35-lakhs.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-in-bhiwandi-under-40-lakhs.html",
+      "title": "Flats In Bhiwandi Under 40 Lakhs | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1137,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-in-bhiwandi-under-40-lakhs.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-in-bhiwandi-under-50-lakhs.html",
+      "title": "Flats In Bhiwandi Under 50 Lakhs | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1137,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-in-bhiwandi-under-50-lakhs.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-in-bhiwandi-under-60-lakhs.html",
+      "title": "Flats In Bhiwandi Under 60 Lakhs | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1137,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-in-bhiwandi-under-60-lakhs.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-in-bhiwandi.html",
+      "title": "Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1086,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-in-kalher.html",
+      "title": "Flats In Kalher | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1090,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-in-kalher.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-in-kamatghar.html",
+      "title": "Flats In Kamatghar | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1090,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-in-kamatghar.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-in-mankoli.html",
+      "title": "Flats In Mankoli | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1090,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-in-mankoli.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-in-narpoli.html",
+      "title": "Flats In Narpoli | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1090,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-in-narpoli.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-in-padgha.html",
+      "title": "Flats In Padgha | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1090,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-in-padgha.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-in-temghar.html",
+      "title": "Flats In Temghar | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1090,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-in-temghar.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-near-bhiwandi-bypass.html",
+      "title": "Flats Near Bhiwandi Bypass | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1108,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-near-bhiwandi-bypass.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-near-bhiwandi-railway-station.html",
+      "title": "Flats Near Bhiwandi Railway Station | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1117,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-near-bhiwandi-railway-station.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-near-bhiwandi-road-railway-station.html",
+      "title": "Flats Near Bhiwandi Road Railway Station | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1126,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-near-bhiwandi-road-railway-station.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-near-bhiwandi-road.html",
+      "title": "Flats Near Bhiwandi Road | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1100,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-near-bhiwandi-road.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-near-dhamankar-naka.html",
+      "title": "Flats Near Dhamankar Naka | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1100,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-near-dhamankar-naka.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-near-kalyan-bhiwandi-road.html",
+      "title": "Flats Near Kalyan Bhiwandi Road | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1110,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-near-kalyan-bhiwandi-road.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-near-kalyan.html",
+      "title": "Flats Near Kalyan | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1099,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-near-kalyan.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-near-mankoli-bridge.html",
+      "title": "Flats Near Mankoli Bridge | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1108,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-near-mankoli-bridge.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-near-mumbai-nashik-highway.html",
+      "title": "Flats Near Mumbai Nashik Highway | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1110,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-near-mumbai-nashik-highway.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/flats-near-thane.html",
+      "title": "Flats Near Thane | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1099,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/flats-near-thane.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/homes-for-sale-in-bhiwandi.html",
+      "title": "Homes For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1107,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/homes-for-sale-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/industrial-land-in-bhiwandi.html",
+      "title": "Industrial Land In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1109,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/industrial-land-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/industrial-property-in-bhiwandi.html",
+      "title": "Industrial Property In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1109,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/industrial-property-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/investment-property-in-bhiwandi.html",
+      "title": "Investment Property In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1119,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/investment-property-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/is-bhiwandi-good-for-property-investment.html",
+      "title": "Is Bhiwandi Good For Property Investment | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1115,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/is-bhiwandi-good-for-property-investment.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/low-budget-flats-in-bhiwandi.html",
+      "title": "Low Budget Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1129,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/low-budget-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/luxury-1-bhk-in-bhiwandi.html",
+      "title": "Luxury 1 BHK In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1128,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/luxury-1-bhk-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/luxury-2-bhk-in-bhiwandi.html",
+      "title": "Luxury 2 BHK In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1122,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/luxury-2-bhk-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/luxury-flats-in-bhiwandi.html",
+      "title": "Luxury Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/luxury-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/new-1-bhk-flats-in-bhiwandi.html",
+      "title": "New 1 BHK Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1138,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/new-1-bhk-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/new-1-bhk-in-bhiwandi.html",
+      "title": "New 1 BHK In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1129,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/new-1-bhk-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/new-2-bhk-flats-in-bhiwandi.html",
+      "title": "New 2 BHK Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1132,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/new-2-bhk-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/new-2-bhk-in-bhiwandi.html",
+      "title": "New 2 BHK In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1123,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/new-2-bhk-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/new-apartments-in-bhiwandi.html",
+      "title": "New Apartments In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1095,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/new-apartments-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/new-construction-projects-in-bhiwandi.html",
+      "title": "New Construction Projects In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1104,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/new-construction-projects-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/new-flat-booking-bhiwandi.html",
+      "title": "New Flat Booking Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1098,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/new-flat-booking-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/new-flat-in-bhiwandi.html",
+      "title": "New Flat In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1095,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/new-flat-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/new-flats-in-bhiwandi.html",
+      "title": "New Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1095,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/new-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/new-flats-near-kalyan-bhiwandi-road.html",
+      "title": "New Flats Near Kalyan Bhiwandi Road | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1129,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/new-flats-near-kalyan-bhiwandi-road.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/new-launch-flats-in-bhiwandi.html",
+      "title": "New Launch Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1119,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/new-launch-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/new-projects-in-bhiwandi.html",
+      "title": "New Projects In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/new-projects-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/new-properties-in-bhiwandi.html",
+      "title": "New Properties In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/new-properties-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/new-property-in-bhiwandi.html",
+      "title": "New Property In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/new-property-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/new-residential-projects-near-bhiwandi.html",
+      "title": "New Residential Projects Near Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1119,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/new-residential-projects-near-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/office-for-sale-in-bhiwandi.html",
+      "title": "Office For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1117,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/office-for-sale-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/office-space-in-bhiwandi.html",
+      "title": "Office Space In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1108,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/office-space-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/premium-2-bhk-in-bhiwandi.html",
+      "title": "Premium 2 BHK In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1122,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/premium-2-bhk-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/premium-flats-in-bhiwandi.html",
+      "title": "Premium Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/premium-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/properties-for-sale-in-bhiwandi.html",
+      "title": "Properties For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1103,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/properties-for-sale-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/properties-in-bhiwandi.html",
+      "title": "Properties In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1085,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/properties-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-booking-in-bhiwandi.html",
+      "title": "Property Booking In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1098,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-booking-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-for-sale-in-bhiwandi.html",
+      "title": "Property For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1103,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-for-sale-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-in-anjurphata.html",
+      "title": "Property In Anjurphata | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1090,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-in-anjurphata.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-in-bhiwandi.html",
+      "title": "Property In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1085,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-in-dhamankar-naka.html",
+      "title": "Property In Dhamankar Naka | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1100,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-in-dhamankar-naka.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-in-kalher.html",
+      "title": "Property In Kalher | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1090,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-in-kalher.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-in-kamatghar.html",
+      "title": "Property In Kamatghar | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1090,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-in-kamatghar.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-in-mankoli.html",
+      "title": "Property In Mankoli | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1090,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-in-mankoli.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-in-narpoli.html",
+      "title": "Property In Narpoli | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1090,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-in-narpoli.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-in-padgha.html",
+      "title": "Property In Padgha | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1090,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-in-padgha.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-in-temghar.html",
+      "title": "Property In Temghar | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1090,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-in-temghar.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-investment-in-bhiwandi.html",
+      "title": "Property Investment In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1119,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-investment-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-near-bhiwandi-bypass.html",
+      "title": "Property Near Bhiwandi Bypass | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1108,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-near-bhiwandi-bypass.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-near-bhiwandi-railway-station.html",
+      "title": "Property Near Bhiwandi Railway Station | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1117,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-near-bhiwandi-railway-station.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-near-bhiwandi-road-railway-station.html",
+      "title": "Property Near Bhiwandi Road Railway Station | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1126,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-near-bhiwandi-road-railway-station.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-near-bhiwandi-road.html",
+      "title": "Property Near Bhiwandi Road | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1100,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-near-bhiwandi-road.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-near-kalyan-bhiwandi-road.html",
+      "title": "Property Near Kalyan Bhiwandi Road | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1110,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-near-kalyan-bhiwandi-road.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-near-kalyan.html",
+      "title": "Property Near Kalyan | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1099,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-near-kalyan.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-near-mankoli-bridge.html",
+      "title": "Property Near Mankoli Bridge | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1108,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-near-mankoli-bridge.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-near-mumbai-nashik-highway.html",
+      "title": "Property Near Mumbai Nashik Highway | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1110,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-near-mumbai-nashik-highway.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-near-thane.html",
+      "title": "Property Near Thane | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1099,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-near-thane.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/property-rates-in-bhiwandi.html",
+      "title": "Property Rates In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1095,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/property-rates-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/ready-possession-1-bhk-in-bhiwandi.html",
+      "title": "Ready Possession 1 BHK In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1138,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/ready-possession-1-bhk-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/ready-possession-2-bhk-in-bhiwandi.html",
+      "title": "Ready Possession 2 BHK In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1132,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/ready-possession-2-bhk-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/ready-possession-flats-in-bhiwandi.html",
+      "title": "Ready Possession Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1104,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/ready-possession-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/ready-to-move-flats-in-bhiwandi.html",
+      "title": "Ready To Move Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1114,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/ready-to-move-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/real-estate-in-bhiwandi.html",
+      "title": "Real Estate In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/real-estate-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/real-estate-projects-in-bhiwandi.html",
+      "title": "Real Estate Projects In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1104,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/real-estate-projects-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/residential-apartments-in-bhiwandi.html",
+      "title": "Residential Apartments In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/residential-apartments-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/residential-flats-in-bhiwandi.html",
+      "title": "Residential Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/residential-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/residential-projects-in-bhiwandi.html",
+      "title": "Residential Projects In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/residential-projects-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/residential-properties-in-bhiwandi.html",
+      "title": "Residential Properties In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/residential-properties-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/residential-property-in-bhiwandi.html",
+      "title": "Residential Property In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/residential-property-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/shop-for-sale-in-bhiwandi.html",
+      "title": "Shop For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1117,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/shop-for-sale-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/shops-for-sale-in-bhiwandi.html",
+      "title": "Shops For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1117,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/shops-for-sale-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/showroom-for-sale-in-bhiwandi.html",
+      "title": "Showroom For Sale In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1119,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/showroom-for-sale-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/under-construction-1-bhk-in-bhiwandi.html",
+      "title": "Under Construction 1 BHK In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1138,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/under-construction-1-bhk-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/under-construction-2-bhk-in-bhiwandi.html",
+      "title": "Under Construction 2 BHK In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1132,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/under-construction-2-bhk-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/under-construction-flats-in-bhiwandi.html",
+      "title": "Under Construction Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1104,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/under-construction-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/upcoming-areas-in-bhiwandi.html",
+      "title": "Upcoming Areas In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1095,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/upcoming-areas-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/upcoming-flats-in-bhiwandi.html",
+      "title": "Upcoming Flats In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/upcoming-flats-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/upcoming-projects-in-bhiwandi.html",
+      "title": "Upcoming Projects In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1094,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/upcoming-projects-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/upcoming-residential-projects-in-bhiwandi.html",
+      "title": "Upcoming Residential Projects In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1119,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/upcoming-residential-projects-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/warehouse-in-bhiwandi.html",
+      "title": "Warehouse In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1099,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/warehouse-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/warehouses-in-bhiwandi.html",
+      "title": "Warehouses In Bhiwandi | Arihant City Kalyan Bhiwandi",
+      "wordCount": 1099,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/blog/warehouses-in-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 2,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "flats-for-sale-in-bhiwandi-millat-nagar.html",
+      "title": "Flats for Sale in Bhiwandi Millat Nagar – Premium Homes in Arihant City",
+      "wordCount": 1256,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/flats-for-sale-in-bhiwandi-millat-nagar",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 4,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "ultra-luxury",
+          "count": 1,
+          "issue": "Subjective buzzword without standard grading."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "index.html",
+      "title": "Arihant City Kalyan Bhiwandi – 32-Acre Mega Township | 1 & 2 BHK Balcony Flats",
+      "wordCount": 1258,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 4,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "ultra-luxury",
+          "count": 1,
+          "issue": "Subjective buzzword without standard grading."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "truly a royal experience",
+          "count": 1,
+          "issue": "Excessive promotional puffery without informative value."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "index.php",
+      "title": "Arihant City Kalyan Bhiwandi – 32-Acre Mega Township | 1 & 2 BHK Balcony Flats",
+      "wordCount": 1258,
+      "risk": "CRITICAL",
+      "canonical": "https://arihantcity.site/",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 4,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "ultra-luxury",
+          "count": 1,
+          "issue": "Subjective buzzword without standard grading."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "truly a royal experience",
+          "count": 1,
+          "issue": "Excessive promotional puffery without informative value."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "2-bhk-flat-in-bhiwandi-price.html",
+      "title": "2 BHK Flat in Bhiwandi Price – Cost, Pricing List & Offers in Arihant City",
+      "wordCount": 1280,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/2-bhk-flat-in-bhiwandi-price",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 4,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "ultra-luxury",
+          "count": 1,
+          "issue": "Subjective buzzword without standard grading."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "2-bhk-flat-in-bhiwandi.html",
+      "title": "2 BHK Flat in Bhiwandi – Luxury Flats in Arihant City Township",
+      "wordCount": 1270,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/2-bhk-flat-in-bhiwandi",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 4,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "ultra-luxury",
+          "count": 1,
+          "issue": "Subjective buzzword without standard grading."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "truly a royal experience",
+          "count": 1,
+          "issue": "Excessive promotional puffery without informative value."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "bhiwandi-1-bhk-flat-price.html",
+      "title": "Bhiwandi 1 BHK Flat Price – Cost Sheets, Offers & Plans in Arihant City",
+      "wordCount": 1264,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/bhiwandi-1-bhk-flat-price",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 4,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "ultra-luxury",
+          "count": 1,
+          "issue": "Subjective buzzword without standard grading."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "bhiwandi-1-bhk-flat.html",
+      "title": "Bhiwandi 1 BHK Flat – Luxury 1 BHK Flats in Arihant City Township",
+      "wordCount": 1259,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/bhiwandi-1-bhk-flat",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 4,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "ultra-luxury",
+          "count": 1,
+          "issue": "Subjective buzzword without standard grading."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "truly a royal experience",
+          "count": 1,
+          "issue": "Excessive promotional puffery without informative value."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "bhiwandi-flat-rate.html",
+      "title": "Bhiwandi Flat Rate – Property Rates & Cost Sheets in Arihant City",
+      "wordCount": 1235,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/bhiwandi-flat-rate",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 4,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "ultra-luxury",
+          "count": 1,
+          "issue": "Subjective buzzword without standard grading."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "bhiwandi-property-rates-per-square-feet.html",
+      "title": "Bhiwandi Property Rates per square feet – Pricing Details | Arihant City",
+      "wordCount": 1224,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/bhiwandi-property-rates-per-square-feet",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 3,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/arihant-city-d3-signature-tower.html",
+      "title": "Arihant City D3 Signature Tower: 26-Storey Luxury Tower Floor Plans & Amenities | Arihant City",
+      "wordCount": 448,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/blog/arihant-city-d3-signature-tower.html",
+      "cliches": []
+    },
+    {
+      "filePath": "blog/arihant-city-kalyan-bhiwandi.html",
+      "title": "Arihant City Kalyan Bhiwandi: 32-Acre Township Guide, Floor Plans & Pricing | Arihant City",
+      "wordCount": 792,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/blog/arihant-city-kalyan-bhiwandi.html",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 1,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/bhiwandi-property-rates-per-square-feet.html",
+      "title": "Bhiwandi Property Rates Per Square Feet: Current Market Trends & Appreciation Forecast | Arihant City",
+      "wordCount": 532,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/blog/bhiwandi-property-rates-per-square-feet.html",
+      "cliches": []
+    },
+    {
+      "filePath": "blog/flats-for-sale-in-bhiwandi-millat-nagar.html",
+      "title": "Flats for Sale in Bhiwandi Millat Nagar vs Modern Gated Townships: Which is Better? | Arihant City",
+      "wordCount": 497,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/blog/flats-for-sale-in-bhiwandi-millat-nagar.html",
+      "cliches": []
+    },
+    {
+      "filePath": "blog/home-loan-and-maharera-guide-bhiwandi.html",
+      "title": "MahaRERA & Home Loan Guide for Buying Homes in Arihant City Bhiwandi | Arihant City",
+      "wordCount": 536,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/blog/home-loan-and-maharera-guide-bhiwandi.html",
+      "cliches": []
+    },
+    {
+      "filePath": "blog/metro-line-5-bhiwandi-impact.html",
+      "title": "Thane-Bhiwandi-Kalyan Metro Line 5: Stations, Route Map & Real Estate Impact | Arihant City",
+      "wordCount": 499,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/blog/metro-line-5-bhiwandi-impact.html",
+      "cliches": []
+    },
+    {
+      "filePath": "blog/property-in-bhiwandi-for-sale.html",
+      "title": "Property in Bhiwandi for Sale: Why Kalyan-Bhiwandi Bypass is MMR’s Next Big Hub | Arihant City",
+      "wordCount": 522,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/blog/property-in-bhiwandi-for-sale.html",
+      "cliches": []
+    },
+    {
+      "filePath": "commercial-property-in-bhiwandi.html",
+      "title": "Commercial Property in Bhiwandi – Retail Shops & Showrooms in Arihant City",
+      "wordCount": 1224,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/commercial-property-in-bhiwandi",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 3,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "flats-in-bhiwandi.html",
+      "title": "Flats in Bhiwandi – Premium 1, 2, & 3 BHK Apartments in Arihant City",
+      "wordCount": 1245,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/flats-in-bhiwandi",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 4,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "ultra-luxury",
+          "count": 1,
+          "issue": "Subjective buzzword without standard grading."
+        },
+        {
+          "phrase": "dream home",
+          "count": 2,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "truly a royal experience",
+          "count": 1,
+          "issue": "Excessive promotional puffery without informative value."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "luxury-property-in-bhiwandi.html",
+      "title": "Luxury Property in Bhiwandi – 2 BHK & Jodi Balcony Flats | Arihant City",
+      "wordCount": 1200,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/luxury-property-in-bhiwandi",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 4,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "olx-bhiwandi-property.html",
+      "title": "OLX Bhiwandi Property – Buy Direct Developer Flats in Arihant City",
+      "wordCount": 1197,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/olx-bhiwandi-property",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 3,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "property-in-bhiwandi-for-sale.html",
+      "title": "Property in Bhiwandi for sale – Buy Luxury Gated Homes in Arihant City",
+      "wordCount": 1203,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/property-in-bhiwandi-for-sale",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 3,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "property-in-bhiwandi-millat-nagar.html",
+      "title": "Property in Bhiwandi Millat Nagar – Flats & Homes near Millat Nagar",
+      "wordCount": 1210,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/property-in-bhiwandi-millat-nagar",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 3,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "property-in-bhiwandi.html",
+      "title": "Property in Bhiwandi – Premium Residential Flats in Arihant City",
+      "wordCount": 1216,
+      "risk": "HIGH",
+      "canonical": "https://arihantcity.site/property-in-bhiwandi",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 4,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "admin.php",
+      "title": "Website Admin Panel",
+      "wordCount": 200,
+      "risk": "LOW",
+      "canonical": "",
+      "cliches": []
+    },
+    {
+      "filePath": "api/admin.php",
+      "title": "",
+      "wordCount": 0,
+      "risk": "LOW",
+      "canonical": "",
+      "cliches": []
+    },
+    {
+      "filePath": "api/baba-leads.php",
+      "title": "",
+      "wordCount": 0,
+      "risk": "LOW",
+      "canonical": "",
+      "cliches": []
+    },
+    {
+      "filePath": "api/contact.php",
+      "title": "",
+      "wordCount": 0,
+      "risk": "LOW",
+      "canonical": "",
+      "cliches": []
+    },
+    {
+      "filePath": "api/index.php",
+      "title": "",
+      "wordCount": 0,
+      "risk": "LOW",
+      "canonical": "",
+      "cliches": []
+    },
+    {
+      "filePath": "baba-leads.php",
+      "title": "Arihant City | Lead Panel",
+      "wordCount": 53,
+      "risk": "LOW",
+      "canonical": "",
+      "cliches": []
+    },
+    {
+      "filePath": "bhiwandi-property-tax.html",
+      "title": "Bhiwandi property tax – Payment Guidelines & Info | Arihant City",
+      "wordCount": 1211,
+      "risk": "LOW",
+      "canonical": "https://arihantcity.site/bhiwandi-property-tax",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 3,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "dream home",
+          "count": 1,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "blog/index.html",
+      "title": "Redirecting...",
+      "wordCount": 4,
+      "risk": "LOW",
+      "canonical": "",
+      "cliches": []
+    },
+    {
+      "filePath": "blog.html",
+      "title": "Real Estate Knowledge Hub & Guides (199+ Topics) | Arihant City Kalyan Bhiwandi",
+      "wordCount": 6676,
+      "risk": "LOW",
+      "canonical": "https://arihantcity.site/blog.html",
+      "cliches": []
+    },
+    {
+      "filePath": "contact.php",
+      "title": "",
+      "wordCount": 85,
+      "risk": "LOW",
+      "canonical": "",
+      "cliches": []
+    },
+    {
+      "filePath": "disclaimer.html",
+      "title": "Disclaimer & Channel Partner Disclosure | Arihant City Kalyan Bhiwandi",
+      "wordCount": 535,
+      "risk": "LOW",
+      "canonical": "https://arihantcity.site/disclaimer.html",
+      "cliches": []
+    },
+    {
+      "filePath": "privacy-policy.html",
+      "title": "Privacy Policy | Arihant City Kalyan Bhiwandi | Data Protection",
+      "wordCount": 628,
+      "risk": "LOW",
+      "canonical": "https://arihantcity.site/privacy-policy.html",
+      "cliches": []
+    },
+    {
+      "filePath": "ready-to-move-flats-in-bhiwandi.html",
+      "title": "Ready to Move Flats in Bhiwandi – Immediate Possession Homes in Arihant City",
+      "wordCount": 1258,
+      "risk": "LOW",
+      "canonical": "https://arihantcity.site/ready-to-move-flats-in-bhiwandi",
+      "cliches": [
+        {
+          "phrase": "world-class",
+          "count": 4,
+          "issue": "Overused real estate hyperbole; lacks concrete specification."
+        },
+        {
+          "phrase": "ultra-luxury",
+          "count": 1,
+          "issue": "Subjective buzzword without standard grading."
+        },
+        {
+          "phrase": "dream home",
+          "count": 2,
+          "issue": "High-frequency real estate cliché."
+        },
+        {
+          "phrase": "truly a royal experience",
+          "count": 1,
+          "issue": "Excessive promotional puffery without informative value."
+        },
+        {
+          "phrase": "unmatched lifestyle/connectivity",
+          "count": 1,
+          "issue": "Unsubstantiated absolute claim."
+        }
+      ]
+    },
+    {
+      "filePath": "terms-and-conditions.html",
+      "title": "Terms and Conditions | Arihant City Kalyan Bhiwandi",
+      "wordCount": 602,
+      "risk": "LOW",
+      "canonical": "https://arihantcity.site/terms-and-conditions.html",
+      "cliches": []
+    },
+    {
+      "filePath": "thank-you.html",
+      "title": "Thank You | Arihant City Kalyan Bhiwandi | Request Confirmed",
+      "wordCount": 264,
+      "risk": "LOW",
+      "canonical": "https://arihantcity.site/thank-you.html",
+      "cliches": []
+    }
+  ]
+}

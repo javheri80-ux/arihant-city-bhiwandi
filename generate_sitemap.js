@@ -1,34 +1,49 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://www.arihant.city';
+const DOMAIN = 'https://www.arihantcity.site';
 const dateStr = new Date().toISOString().split('T')[0];
 
 const rootPages = [
     { loc: '', priority: '1.0', changefreq: 'daily' },
-    { loc: 'blog', priority: '0.8', changefreq: 'weekly' },
-    { loc: '2-bhk-flat-in-bhiwandi', priority: '0.9', changefreq: 'weekly' },
-    { loc: '2-bhk-flat-in-bhiwandi-price', priority: '0.9', changefreq: 'weekly' },
-    { loc: '2-bhk-flat-in-bhiwandi-for-sale', priority: '0.9', changefreq: 'weekly' },
-    { loc: '2-bhk-flat-in-anjur-phata-bhiwandi', priority: '0.9', changefreq: 'weekly' },
-    { loc: 'ready-to-move-flats-in-bhiwandi', priority: '0.9', changefreq: 'weekly' },
-    { loc: 'bhiwandi-1-bhk-flat', priority: '0.9', changefreq: 'weekly' },
-    { loc: '1-bhk-flat-in-bhiwandi-for-sale', priority: '0.9', changefreq: 'weekly' },
-    { loc: 'bhiwandi-1-bhk-flat-price', priority: '0.9', changefreq: 'weekly' },
-    { loc: 'flats-in-bhiwandi', priority: '0.9', changefreq: 'weekly' },
-    { loc: 'flats-for-sale-in-bhiwandi-millat-nagar', priority: '0.9', changefreq: 'weekly' },
-    { loc: 'bhiwandi-flat-rate', priority: '0.9', changefreq: 'weekly' },
-    { loc: 'commercial-property-in-bhiwandi', priority: '0.9', changefreq: 'weekly' },
-    { loc: 'bhiwandi-property-rates-per-square-feet', priority: '0.9', changefreq: 'weekly' },
-    { loc: 'property-in-bhiwandi-millat-nagar', priority: '0.9', changefreq: 'weekly' },
-    { loc: 'olx-bhiwandi-property', priority: '0.9', changefreq: 'weekly' },
-    { loc: 'bhiwandi-property-tax', priority: '0.9', changefreq: 'weekly' },
-    { loc: 'property-in-bhiwandi', priority: '0.9', changefreq: 'weekly' },
-    { loc: 'property-in-bhiwandi-for-sale', priority: '0.9', changefreq: 'weekly' },
-    { loc: 'luxury-property-in-bhiwandi', priority: '0.9', changefreq: 'weekly' },
-    { loc: 'privacy-policy', priority: '0.5', changefreq: 'yearly' },
-    { loc: 'terms-and-conditions', priority: '0.5', changefreq: 'yearly' },
-    { loc: 'disclaimer', priority: '0.5', changefreq: 'yearly' }
+    // Google Sitelink Candidate Pages (Primary Importance)
+    { loc: 'arihant-city-price.html', priority: '0.95', changefreq: 'weekly' },
+    { loc: 'arihant-city-floor-plans.html', priority: '0.95', changefreq: 'weekly' },
+    { loc: 'arihant-city-location.html', priority: '0.95', changefreq: 'weekly' },
+    { loc: 'arihant-city-amenities.html', priority: '0.90', changefreq: 'weekly' },
+    { loc: 'arihant-city-configurations.html', priority: '0.90', changefreq: 'weekly' },
+    { loc: 'arihant-city-maharera.html', priority: '0.90', changefreq: 'weekly' },
+    { loc: 'arihant-city-developer.html', priority: '0.90', changefreq: 'weekly' },
+    { loc: 'arihant-city-brochure.html', priority: '0.90', changefreq: 'weekly' },
+    { loc: 'arihant-city-gallery.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: 'arihant-city-faqs.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: 'blog.html', priority: '0.90', changefreq: 'weekly' },
+
+    // Existing High-Intent Root Landing Pages (Protected)
+    { loc: '2-bhk-flat-in-bhiwandi.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: '2-bhk-flat-in-bhiwandi-price.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: '2-bhk-flat-in-bhiwandi-for-sale.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: '2-bhk-flat-in-anjur-phata-bhiwandi.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: 'ready-to-move-flats-in-bhiwandi.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: 'bhiwandi-1-bhk-flat.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: '1-bhk-flat-in-bhiwandi-for-sale.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: 'bhiwandi-1-bhk-flat-price.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: 'flats-in-bhiwandi.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: 'flats-for-sale-in-bhiwandi-millat-nagar.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: 'bhiwandi-flat-rate.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: 'commercial-property-in-bhiwandi.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: 'bhiwandi-property-rates-per-square-feet.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: 'property-in-bhiwandi-millat-nagar.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: 'olx-bhiwandi-property.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: 'bhiwandi-property-tax.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: 'property-in-bhiwandi.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: 'property-in-bhiwandi-for-sale.html', priority: '0.85', changefreq: 'weekly' },
+    { loc: 'luxury-property-in-bhiwandi.html', priority: '0.85', changefreq: 'weekly' },
+
+    // Legal & Trust
+    { loc: 'privacy-policy.html', priority: '0.5', changefreq: 'monthly' },
+    { loc: 'terms-and-conditions.html', priority: '0.5', changefreq: 'monthly' },
+    { loc: 'disclaimer.html', priority: '0.5', changefreq: 'monthly' }
 ];
 
 // Scan blog directory for articles
@@ -37,11 +52,11 @@ let blogPages = [];
 if (fs.existsSync(blogDir)) {
     const files = fs.readdirSync(blogDir);
     files.forEach(file => {
-        if (file.endsWith('.html')) {
+        if (file.endsWith('.html') && file !== 'index.html') {
             blogPages.push({
                 loc: `blog/${file}`,
-                priority: '0.7',
-                changefreq: 'monthly'
+                priority: '0.8',
+                changefreq: 'weekly'
             });
         }
     });
@@ -74,5 +89,5 @@ blogPages.forEach(p => {
 
 xml += `</urlset>`;
 
-fs.writeFileSync(path.join(__dirname, 'sitemap.xml'), xml, 'utf8');
-console.log("sitemap.xml generated successfully for domain: " + DOMAIN);
+fs.writeFileSync(path.join(__dirname, 'sitemap.xml'), xml, 'utf-8');
+console.log(`sitemap.xml generated successfully for domain: ${DOMAIN} with ${rootPages.length + blogPages.length} URLs`);

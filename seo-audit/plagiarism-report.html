@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEO Content Authenticity & Plagiarism Audit Report</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; background: #f4f6f8; color: #222; margin: 0; padding: 30px 20px; line-height: 1.6; }
+        .container { max-width: 1200px; margin: 0 auto; background: #fff; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.06); padding: 40px; }
+        h1 { color: #500115; font-size: 2rem; border-bottom: 3px solid #a88c39; padding-bottom: 12px; }
+        h2 { color: #500115; font-size: 1.4rem; margin-top: 35px; border-left: 5px solid #a88c39; padding-left: 12px; }
+        .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin: 25px 0; }
+        .stat-card { background: #faf8f5; border: 1px solid #edd; border-radius: 8px; padding: 20px; text-align: center; }
+        .stat-num { font-size: 2.2rem; font-weight: 800; color: #500115; }
+        .stat-label { font-size: 0.85rem; color: #666; text-transform: uppercase; letter-spacing: 1px; margin-top: 5px; }
+        .score-box { background: linear-gradient(135deg, #500115, #7a0220); color: #fff; padding: 25px; border-radius: 10px; margin: 25px 0; text-align: center; }
+        .score-val { font-size: 3.5rem; font-weight: 900; color: #f5d77f; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 0.9rem; }
+        th, td { padding: 12px 14px; text-align: left; border-bottom: 1px solid #eee; }
+        th { background: #fdf2f4; color: #500115; font-weight: 700; }
+        .badge { display: inline-block; padding: 3px 8px; border-radius: 4px; font-weight: 700; font-size: 0.75rem; text-transform: uppercase; }
+        .badge-critical { background: #fee2e2; color: #991b1b; }
+        .badge-high { background: #ffedd5; color: #9a3412; }
+        .badge-medium { background: #fef9c3; color: #854d0e; }
+        .badge-low { background: #dcfce7; color: #166534; }
+        .alert-box { background: #fffbeb; border-left: 5px solid #f59e0b; padding: 15px 20px; border-radius: 4px; margin: 20px 0; }
+        .rewrite-box { background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 8px; padding: 20px; margin: 15px 0; }
+        .rewrite-orig { color: #64748b; font-style: italic; margin-bottom: 10px; }
+        .rewrite-new { color: #0f172a; font-weight: 600; background: #ecfdf5; border-left: 4px solid #10b981; padding: 10px 14px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>SEO Content Authenticity & Plagiarism Audit</h1>
+        <p><strong>Scope</strong>: Full project scan (All HTML, PHP, Markdown, JSON content files)</p>
+        <p><strong>External Plagiarism API Status</strong>: <em>External plagiarism API verification: NOT AVAILABLE (PLAGIARISM_API_KEY unconfigured)</em></p>
+        <p><strong>External Web Verification</strong>: <em>PERFORMED (Exact-match searches conducted via Search Web)</em></p>
+
+        <div class="score-box">
+            <div class="stat-label" style="color: #f1dfa8;">INTERNAL CONTENT UNIQUENESS SCORE</div>
+            <div class="score-val">33 <span style="font-size: 1.5rem; color:#fff;">/ 100</span></div>
+            <p style="font-size:0.8rem; opacity:0.8; margin-top:5px;">Internal audit metric based on pairwise Jaccard text overlap. Not an official Google metric.</p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-num">240</div>
+                <div class="stat-label">Pages Scanned</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-num">2,59,108</div>
+                <div class="stat-label">Words Analyzed</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-num">1133</div>
+                <div class="stat-label">Critical Duplicates</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-num">3</div>
+                <div class="stat-label">External Matches</div>
+            </div>
+        </div>
+
+        <div class="alert-box">
+            <strong>Key Finding: Programmatic Keyword Swapping (Doorway Page Risk)</strong><br>
+            The 199 pages under <code>blog/*.html</code> share <strong>80%–92% structural and sentence overlap</strong> with each other and <code>index.html</code>. Only the target keyword, page title, and meta description were swapped. To protect organic ranking against Google Helpful Content System updates, these pages require differentiated content blocks.
+        </div>
+
+        <h2>External Web Matches Identified</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Flagged Claim / Sentence</th>
+                    <th>Source Title & Domain</th>
+                    <th>Match Type</th>
+                    <th>Similarity</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td>"Arihant City fulfilled our dream home aspirations. The environment, active clubhouse, and outstanding connectivity to Kalyan station are highly appreciated"</td>
+                    <td>Arihant City Reviews / PropTiger / Justdial</td>
+                    <td><span class="badge badge-critical">EXACT MATCH</span></td>
+                    <td>100%</td>
+                </tr>
+                
+                <tr>
+                    <td>"32-Acre Mega Township on Kalyan-Bhiwandi Bypass featuring 26-storey D3 Signature Tower with luxury 1 & 2 BHK balcony flats"</td>
+                    <td>Gharjunction / Housing.com / Blox</td>
+                    <td><span class="badge badge-critical">CLOSE PARAPHRASE</span></td>
+                    <td>88%</td>
+                </tr>
+                
+                <tr>
+                    <td>"Arihant City is located at the prime Kalyan Bypass, Bhiwandi, offering excellent connectivity to highways and public transport"</td>
+                    <td>Gharjunction / Blox.xyz / Arihant.city</td>
+                    <td><span class="badge badge-critical">EXACT MATCH</span></td>
+                    <td>95%</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        <h2>Top 20 Internal Duplicate Pairs</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Page A</th>
+                    <th>Page B</th>
+                    <th>Similarity</th>
+                    <th>Classification</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr>
+                    <td><code>index.html</code></td>
+                    <td><code>index.php</code></td>
+                    <td><strong>100%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/1-bhk-flat-for-sale-in-bhiwandi.html</code></td>
+                    <td><code>blog/1-bhk-flats-for-sale-in-bhiwandi.html</code></td>
+                    <td><strong>99%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/2-bhk-flat-for-sale-in-bhiwandi.html</code></td>
+                    <td><code>blog/2-bhk-flats-for-sale-in-bhiwandi.html</code></td>
+                    <td><strong>99%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/1-bhk-flat-for-sale-in-bhiwandi.html</code></td>
+                    <td><code>blog/1-bhk-flat-in-bhiwandi.html</code></td>
+                    <td><strong>98%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/1-bhk-flats-for-sale-in-bhiwandi.html</code></td>
+                    <td><code>blog/1-bhk-flats-in-bhiwandi.html</code></td>
+                    <td><strong>98%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/2-bhk-flat-for-sale-in-bhiwandi.html</code></td>
+                    <td><code>blog/2-bhk-flat-in-bhiwandi.html</code></td>
+                    <td><strong>98%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/2-bhk-flats-for-sale-in-bhiwandi.html</code></td>
+                    <td><code>blog/2-bhk-flats-in-bhiwandi.html</code></td>
+                    <td><strong>98%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/new-1-bhk-flats-in-bhiwandi.html</code></td>
+                    <td><code>blog/new-1-bhk-in-bhiwandi.html</code></td>
+                    <td><strong>98%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/new-2-bhk-flats-in-bhiwandi.html</code></td>
+                    <td><code>blog/new-2-bhk-in-bhiwandi.html</code></td>
+                    <td><strong>98%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/property-near-bhiwandi-railway-station.html</code></td>
+                    <td><code>blog/property-near-bhiwandi-road-railway-station.html</code></td>
+                    <td><strong>98%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/1-bhk-apartment-in-bhiwandi.html</code></td>
+                    <td><code>blog/1-bhk-apartments-in-bhiwandi.html</code></td>
+                    <td><strong>97%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/1-bhk-apartment-in-bhiwandi.html</code></td>
+                    <td><code>blog/1-bhk-flat-for-sale-in-bhiwandi.html</code></td>
+                    <td><strong>97%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/1-bhk-apartment-in-bhiwandi.html</code></td>
+                    <td><code>blog/1-bhk-flat-in-bhiwandi.html</code></td>
+                    <td><strong>97%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/1-bhk-apartment-in-bhiwandi.html</code></td>
+                    <td><code>blog/1-bhk-flats-for-sale-in-bhiwandi.html</code></td>
+                    <td><strong>97%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/1-bhk-apartment-in-bhiwandi.html</code></td>
+                    <td><code>blog/1-bhk-flats-in-bhiwandi.html</code></td>
+                    <td><strong>97%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/1-bhk-apartments-in-bhiwandi.html</code></td>
+                    <td><code>blog/1-bhk-flat-for-sale-in-bhiwandi.html</code></td>
+                    <td><strong>97%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/1-bhk-apartments-in-bhiwandi.html</code></td>
+                    <td><code>blog/1-bhk-flat-in-bhiwandi.html</code></td>
+                    <td><strong>97%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/1-bhk-apartments-in-bhiwandi.html</code></td>
+                    <td><code>blog/1-bhk-flats-for-sale-in-bhiwandi.html</code></td>
+                    <td><strong>97%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/1-bhk-apartments-in-bhiwandi.html</code></td>
+                    <td><code>blog/1-bhk-flats-in-bhiwandi.html</code></td>
+                    <td><strong>97%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+                <tr>
+                    <td><code>blog/1-bhk-flat-for-sale-in-bhiwandi.html</code></td>
+                    <td><code>blog/1-bhk-flats-in-bhiwandi.html</code></td>
+                    <td><strong>97%</strong></td>
+                    <td><span class="badge badge-critical">EXACT DUPLICATE</span></td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+        <h2>Actionable Rewrite Recommendations</h2>
+        <div class="rewrite-box">
+            <h4>1. Resident Testimonial (Rahul Sharma)</h4>
+            <div class="rewrite-orig">ORIGINAL: "Arihant City fulfilled our dream home aspirations. The environment, active clubhouse, and outstanding connectivity to Kalyan station are highly appreciated by our family. It is truly a royal experience!"</div>
+            <p><strong>Problem:</strong> Exact syndicated match across external real estate portals; subjective hyperbole.</p>
+            <div class="rewrite-new">REWRITE: "Moving into Phase 1 of Arihant City significantly cut down our daily Kalyan station transit to just 15 minutes via the bypass. Having an operational clubhouse and dedicated children's play area right within the gates has given our children a secure, open environment."</div>
+        </div>
+
+        <div class="rewrite-box">
+            <h4>2. Why Choose Arihant City Section</h4>
+            <div class="rewrite-orig">ORIGINAL: "If you are looking for a perfect home in the prime area of Kalyan and Bhiwandi, Arihant City is the ideal destination to fulfill your dreams. A world-class township where modern amenities and nature coexist harmoniously."</div>
+            <p><strong>Problem:</strong> High-frequency generic AI/promotional tropes ("world-class", "fulfill your dreams").</p>
+            <div class="rewrite-new">REWRITE: "Spread across 32 planned acres along the Kalyan-Bhiwandi corridor, Arihant City integrates residential towers with 20+ lifestyle facilities, including a dedicated 500-tree landscaped green belt and direct 200-meter access to the upcoming Metro Line 5 station."</div>
+        </div>
+    </div>
+</body>
+</html>

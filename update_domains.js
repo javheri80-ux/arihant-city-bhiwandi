@@ -1,32 +1,28 @@
 const fs = require('fs');
 const path = require('path');
 
-const files = [
-    'index.html',
-    'index.php',
-    'blog.html',
-    'disclaimer.html',
-    'privacy-policy.html',
-    'terms-and-conditions.html',
-    'thank-you.html'
-];
-
-files.forEach(file => {
-    const filePath = path.join(__dirname, file);
-    if (fs.existsSync(filePath)) {
-        let content = fs.readFileSync(filePath, 'utf8');
-        
-        // Normalize any old references to the official production domain
-        let updatedContent = content;
-        updatedContent = updatedContent.split('https://www.arihantcity.site').join('https://www.arihant.city');
-        updatedContent = updatedContent.split('https://arihantcity.site').join('https://www.arihant.city');
-        updatedContent = updatedContent.split('https://arihant.city').join('https://www.arihant.city');
-        
-        if (updatedContent !== content) {
-            fs.writeFileSync(filePath, updatedContent, 'utf8');
-            console.log(`Normalized domain in ${file}`);
+function replaceInDir(dir) {
+    const files = fs.readdirSync(dir);
+    files.forEach(file => {
+        const fullPath = path.join(dir, file);
+        const stat = fs.statSync(fullPath);
+        if (stat.isDirectory()) {
+            if (file !== 'node_modules' && file !== '.git') {
+                replaceInDir(fullPath);
+            }
+        } else if (/\.(html|php|js|json|xml|txt)$/.test(file)) {
+            let content = fs.readFileSync(fullPath, 'utf8');
+            let updated = content;
+            updated = updated.split('https://arihantcity.site').join('https://arihantcity.site');
+            updated = updated.split('https://arihantcity.site').join('https://arihantcity.site');
+            updated = updated.split('https://arihantcity.site').join('https://arihantcity.site');
+            if (updated !== content) {
+                fs.writeFileSync(fullPath, updated, 'utf8');
+                console.log(`Normalized domain in ${fullPath}`);
+            }
         }
-    }
-});
+    });
+}
 
-console.log("Domain normalization complete!");
+replaceInDir(__dirname);
+console.log("Domain normalization to arihantcity.site complete across all files!");

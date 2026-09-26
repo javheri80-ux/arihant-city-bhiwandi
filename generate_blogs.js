@@ -44,21 +44,21 @@ const template = (title, slug) => `<!DOCTYPE html>
     <meta name="description" content="Looking for details on ${title}? Find the best premium residences at Arihant City on the Kalyan-Bhiwandi Bypass. Explore configurations, prices, and amenities.">
     <meta name="keywords" content="${title}, Arihant City, Arihant City Bhiwandi, flats in Bhiwandi, flats on Kalyan-Bhiwandi Bypass, real estate Thane district">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://arihant.city/blog/${slug}.html">
+    <link rel="canonical" href="https://arihantcity.site/blog/${slug}.html">
     <link rel="icon" href="../images/favicon.webp" type="image/webp" sizes="16x16">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="${title} | Arihant City Kalyan Bhiwandi">
     <meta property="og:description" content="Discover detailed information, configurations, pricing, and benefits of ${title} at Arihant City, Bhiwandi.">
-    <meta property="og:url" content="https://arihant.city/blog/${slug}.html">
-    <meta property="og:image" content="https://arihant.city/images/hero_banner_1777043167.webp">
+    <meta property="og:url" content="https://arihantcity.site/blog/${slug}.html">
+    <meta property="og:image" content="https://arihantcity.site/images/hero_banner_1777043167.webp">
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${title} | Arihant City Kalyan Bhiwandi">
     <meta name="twitter:description" content="Discover detailed information, configurations, pricing, and benefits of ${title} at Arihant City, Bhiwandi.">
-    <meta name="twitter:image" content="https://arihant.city/images/hero_banner_1777043167.webp">
+    <meta name="twitter:image" content="https://arihantcity.site/images/hero_banner_1777043167.webp">
 
     <style>
         :root {
@@ -442,7 +442,7 @@ const template = (title, slug) => `<!DOCTYPE html>
       "@type": "TechArticle",
       "headline": "${title} - Arihant City Kalyan Bhiwandi",
       "description": "Comprehensive analysis of ${title} at the 32-acre mega township Arihant City on the Kalyan-Bhiwandi Bypass.",
-      "image": "https://arihant.city/images/hero_banner_1777043167.webp",
+      "image": "https://arihantcity.site/images/hero_banner_1777043167.webp",
       "author": {
         "@type": "Organization",
         "name": "Arihant City Advisor"
@@ -452,12 +452,12 @@ const template = (title, slug) => `<!DOCTYPE html>
         "name": "Arihant City Authorized Channel Partner",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://arihant.city/images/site_logo_1777043167.webp"
+          "url": "https://arihantcity.site/images/site_logo_1777043167.webp"
         }
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://arihant.city/blog/${slug}.html"
+        "@id": "https://arihantcity.site/blog/${slug}.html"
       },
       "datePublished": "2026-06-22T03:00:00+05:30",
       "dateModified": "2026-06-22T03:00:00+05:30"
@@ -473,19 +473,19 @@ const template = (title, slug) => `<!DOCTYPE html>
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://arihant.city/"
+          "item": "https://arihantcity.site/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Blogs",
-          "item": "https://arihant.city/blog.html"
+          "item": "https://arihantcity.site/blog.html"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "${title}",
-          "item": "https://arihant.city/blog/${slug}.html"
+          "item": "https://arihantcity.site/blog/${slug}.html"
         }
       ]
     }

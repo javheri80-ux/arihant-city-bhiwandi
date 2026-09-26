@@ -1,3 +1,13 @@
+RewriteEngine On
+
+# Redirect non-www to www
+RewriteCond %{HTTP_HOST} ^arihantcity\.site$ [NC]
+RewriteRule ^(.*)$ https://www.arihantcity.site/$1 [L,R=301]
+
+# Redirect index.php to /
+RewriteCond %{THE_REQUEST} ^.*/index\.php [NC]
+RewriteRule ^(.*)index\.php$ https://www.arihantcity.site/$1 [R=301,L]
+
 <Files "gotya.txt">
     Order Allow,Deny
     Deny from all
