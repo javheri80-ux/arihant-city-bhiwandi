@@ -4,90 +4,91 @@ const path = require('path');
 const DOMAIN = 'https://www.arihantcity.site';
 const dateStr = new Date().toISOString().split('T')[0];
 
-const rootPages = [
-    { loc: '', priority: '1.0', changefreq: 'daily' },
-    // Google Sitelink Candidate Pages (Primary Importance)
-    { loc: 'arihant-city-price.html', priority: '0.95', changefreq: 'weekly' },
-    { loc: 'arihant-city-floor-plans.html', priority: '0.95', changefreq: 'weekly' },
-    { loc: 'arihant-city-location.html', priority: '0.95', changefreq: 'weekly' },
-    { loc: 'arihant-city-amenities.html', priority: '0.90', changefreq: 'weekly' },
-    { loc: 'arihant-city-configurations.html', priority: '0.90', changefreq: 'weekly' },
-    { loc: 'arihant-city-maharera.html', priority: '0.90', changefreq: 'weekly' },
-    { loc: 'arihant-city-developer.html', priority: '0.90', changefreq: 'weekly' },
-    { loc: 'arihant-city-brochure.html', priority: '0.90', changefreq: 'weekly' },
-    { loc: 'arihant-city-gallery.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: 'arihant-city-faqs.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: 'blog.html', priority: '0.90', changefreq: 'weekly' },
-
-    // Existing High-Intent Root Landing Pages (Protected)
-    { loc: '2-bhk-flat-in-bhiwandi.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: '2-bhk-flat-in-bhiwandi-price.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: '2-bhk-flat-in-bhiwandi-for-sale.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: '2-bhk-flat-in-anjur-phata-bhiwandi.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: 'ready-to-move-flats-in-bhiwandi.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: 'bhiwandi-1-bhk-flat.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: '1-bhk-flat-in-bhiwandi-for-sale.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: 'bhiwandi-1-bhk-flat-price.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: 'flats-in-bhiwandi.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: 'flats-for-sale-in-bhiwandi-millat-nagar.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: 'bhiwandi-flat-rate.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: 'commercial-property-in-bhiwandi.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: 'bhiwandi-property-rates-per-square-feet.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: 'property-in-bhiwandi-millat-nagar.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: 'olx-bhiwandi-property.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: 'bhiwandi-property-tax.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: 'property-in-bhiwandi.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: 'property-in-bhiwandi-for-sale.html', priority: '0.85', changefreq: 'weekly' },
-    { loc: 'luxury-property-in-bhiwandi.html', priority: '0.85', changefreq: 'weekly' },
-
-    // Legal & Trust
-    { loc: 'privacy-policy.html', priority: '0.5', changefreq: 'monthly' },
-    { loc: 'terms-and-conditions.html', priority: '0.5', changefreq: 'monthly' },
-    { loc: 'disclaimer.html', priority: '0.5', changefreq: 'monthly' }
+const sitelinkPages = [
+    'arihant-city-price.html',
+    'arihant-city-floor-plans.html',
+    'arihant-city-location.html',
+    'arihant-city-amenities.html',
+    'arihant-city-configurations.html',
+    'arihant-city-maharera.html',
+    'arihant-city-developer.html',
+    'arihant-city-brochure.html',
+    'arihant-city-gallery.html',
+    'arihant-city-faqs.html'
 ];
 
-// Scan blog directory for articles
-const blogDir = path.join(__dirname, 'blog');
-let blogPages = [];
+const legalPages = [
+    'privacy-policy.html',
+    'terms-and-conditions.html',
+    'disclaimer.html'
+];
+
+// 1. Root pages
+const rootDir = __dirname;
+const allRootHtml = fs.readdirSync(rootDir).filter(f => f.endsWith('.html'));
+
+const urlEntries = [];
+
+// Homepage
+urlEntries.push({
+    loc: `${DOMAIN}/`,
+    priority: '1.0',
+    changefreq: 'daily'
+});
+
+allRootHtml.forEach(file => {
+    if (file === 'index.html' || file === 'thank-you.html') return; // index.html is root, thank-you has noindex
+
+    let priority = '0.85';
+    let changefreq = 'weekly';
+
+    if (sitelinkPages.includes(file)) {
+        priority = '0.95';
+        changefreq = 'weekly';
+    } else if (file === 'blog.html') {
+        priority = '0.90';
+        changefreq = 'weekly';
+    } else if (legalPages.includes(file)) {
+        priority = '0.5';
+        changefreq = 'monthly';
+    }
+
+    urlEntries.push({
+        loc: `${DOMAIN}/${file}`,
+        priority,
+        changefreq
+    });
+});
+
+// 2. Blog directory pages
+const blogDir = path.join(rootDir, 'blog');
 if (fs.existsSync(blogDir)) {
-    const files = fs.readdirSync(blogDir);
-    files.forEach(file => {
-        if (file.endsWith('.html') && file !== 'index.html') {
-            blogPages.push({
-                loc: `blog/${file}`,
-                priority: '0.8',
-                changefreq: 'weekly'
-            });
-        }
+    const blogFiles = fs.readdirSync(blogDir).filter(f => f.endsWith('.html') && f !== 'index.html');
+    blogFiles.forEach(bf => {
+        urlEntries.push({
+            loc: `${DOMAIN}/blog/${bf}`,
+            priority: '0.80',
+            changefreq: 'weekly'
+        });
     });
 }
 
+// Generate XML
 let xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 `;
 
-// Append root pages
-rootPages.forEach(p => {
-    const url = p.loc ? `${DOMAIN}/${p.loc}` : `${DOMAIN}/`;
+urlEntries.forEach(entry => {
     xml += `  <url>
-    <loc>${url}</loc>
+    <loc>${entry.loc}</loc>
     <lastmod>${dateStr}</lastmod>
-    <changefreq>${p.changefreq}</changefreq>
-    <priority>${p.priority}</priority>
-  </url>\n`;
-});
-
-// Append blog pages
-blogPages.forEach(p => {
-    xml += `  <url>
-    <loc>${DOMAIN}/${p.loc}</loc>
-    <lastmod>${dateStr}</lastmod>
-    <changefreq>${p.changefreq}</changefreq>
-    <priority>${p.priority}</priority>
+    <changefreq>${entry.changefreq}</changefreq>
+    <priority>${entry.priority}</priority>
   </url>\n`;
 });
 
 xml += `</urlset>`;
 
-fs.writeFileSync(path.join(__dirname, 'sitemap.xml'), xml, 'utf-8');
-console.log(`sitemap.xml generated successfully for domain: ${DOMAIN} with ${rootPages.length + blogPages.length} URLs`);
+const sitemapPath = path.join(rootDir, 'sitemap.xml');
+fs.writeFileSync(sitemapPath, xml, 'utf-8');
+console.log(`sitemap.xml generated successfully for domain: ${DOMAIN} with total ${urlEntries.length} indexable URLs`);
